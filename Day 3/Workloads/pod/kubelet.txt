@@ -1,0 +1,818 @@
+-- Logs begin at Mon 2019-08-12 19:29:40 IST, end at Tue 2019-08-13 12:44:56 IST. --
+Aug 13 12:17:13 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:17:14 vishwanath-VirtualBox systemd[1]: kubelet.service: Current command vanished from the unit file, execution of the command list won't be resumed.
+Aug 13 12:17:14 vishwanath-VirtualBox systemd[1]: Stopping kubelet: The Kubernetes Node Agent...
+Aug 13 12:17:14 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:17:14 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:17:14 vishwanath-VirtualBox kubelet[14064]: F0813 12:17:14.412507   14064 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:17:14 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:17:14 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:17:24 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:17:24 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 1.
+Aug 13 12:17:24 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:17:24 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:17:24 vishwanath-VirtualBox kubelet[14188]: F0813 12:17:24.805373   14188 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:17:24 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:17:24 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:17:35 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:17:35 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 2.
+Aug 13 12:17:35 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:17:35 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:17:35 vishwanath-VirtualBox kubelet[14221]: F0813 12:17:35.295395   14221 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:17:35 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:17:35 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:17:45 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:17:45 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 3.
+Aug 13 12:17:45 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:17:45 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:17:45 vishwanath-VirtualBox kubelet[14253]: F0813 12:17:45.525711   14253 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:17:45 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:17:45 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:17:55 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:17:55 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 4.
+Aug 13 12:17:55 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:17:55 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:17:55 vishwanath-VirtualBox kubelet[14289]: F0813 12:17:55.782067   14289 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:17:55 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:17:55 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:18:05 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:18:05 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 5.
+Aug 13 12:18:05 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:18:05 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:18:06 vishwanath-VirtualBox kubelet[14323]: F0813 12:18:06.013459   14323 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:18:06 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:18:06 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:18:16 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:18:16 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 6.
+Aug 13 12:18:16 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:18:16 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:18:16 vishwanath-VirtualBox kubelet[14356]: F0813 12:18:16.254040   14356 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:18:16 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:18:16 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:18:26 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:18:26 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 7.
+Aug 13 12:18:26 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:18:26 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:18:26 vishwanath-VirtualBox kubelet[14390]: F0813 12:18:26.524898   14390 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:18:26 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:18:26 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:18:36 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:18:36 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 8.
+Aug 13 12:18:36 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:18:36 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:18:36 vishwanath-VirtualBox kubelet[14436]: F0813 12:18:36.771376   14436 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:18:36 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:18:36 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:18:46 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:18:46 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 9.
+Aug 13 12:18:46 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:18:46 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:18:47 vishwanath-VirtualBox kubelet[14465]: F0813 12:18:47.011624   14465 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:18:47 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:18:47 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:18:57 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:18:57 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 10.
+Aug 13 12:18:57 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:18:57 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:18:57 vishwanath-VirtualBox kubelet[14589]: F0813 12:18:57.258322   14589 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:18:57 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:18:57 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:19:07 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:19:07 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 11.
+Aug 13 12:19:07 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:19:07 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:19:07 vishwanath-VirtualBox kubelet[14649]: F0813 12:19:07.571075   14649 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:19:07 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:19:07 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:19:17 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:19:17 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 12.
+Aug 13 12:19:17 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:19:17 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:19:17 vishwanath-VirtualBox kubelet[14713]: F0813 12:19:17.994121   14713 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:19:18 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:19:18 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:19:28 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:19:28 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 13.
+Aug 13 12:19:28 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:19:28 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:19:28 vishwanath-VirtualBox kubelet[14795]: F0813 12:19:28.294460   14795 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:19:28 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:19:28 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:19:38 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:19:38 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 14.
+Aug 13 12:19:38 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:19:38 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:19:38 vishwanath-VirtualBox kubelet[14882]: F0813 12:19:38.577418   14882 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:19:38 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:19:38 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:19:48 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:19:48 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 15.
+Aug 13 12:19:48 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:19:48 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:19:49 vishwanath-VirtualBox kubelet[14992]: F0813 12:19:49.045091   14992 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:19:49 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:19:49 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:19:59 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:19:59 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 16.
+Aug 13 12:19:59 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:19:59 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:19:59 vishwanath-VirtualBox kubelet[15038]: F0813 12:19:59.314583   15038 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:19:59 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:19:59 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:20:09 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:20:09 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 17.
+Aug 13 12:20:09 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:20:09 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:20:09 vishwanath-VirtualBox kubelet[15123]: F0813 12:20:09.765194   15123 server.go:198] failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file "/var/lib/kubelet/config.yaml", error: open /var/lib/kubelet/config.yaml: no such file or directory
+Aug 13 12:20:09 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:20:09 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:20:14 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:20:15 vishwanath-VirtualBox systemd[1]: /etc/systemd/system/kubelet.service.d/10-kubeadm.conf:10: Invalid environment assignment, ignoring: ”cgroup-driver=systemd/cgroup-driver=cgroupfs”
+Aug 13 12:20:15 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:20:15 vishwanath-VirtualBox kubelet[15216]: Flag --cgroup-driver has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.io/docs/tasks/administer-cluster/kubelet-config-file/ for more information.
+Aug 13 12:20:15 vishwanath-VirtualBox kubelet[15216]: Flag --resolv-conf has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.io/docs/tasks/administer-cluster/kubelet-config-file/ for more information.
+Aug 13 12:20:15 vishwanath-VirtualBox kubelet[15216]: Flag --cgroup-driver has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.io/docs/tasks/administer-cluster/kubelet-config-file/ for more information.
+Aug 13 12:20:15 vishwanath-VirtualBox kubelet[15216]: Flag --resolv-conf has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.io/docs/tasks/administer-cluster/kubelet-config-file/ for more information.
+Aug 13 12:20:16 vishwanath-VirtualBox kubelet[15216]: F0813 12:20:16.629380   15216 server.go:253] unable to load client CA file /etc/kubernetes/pki/ca.crt: open /etc/kubernetes/pki/ca.crt: no such file or directory
+Aug 13 12:20:16 vishwanath-VirtualBox systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Aug 13 12:20:16 vishwanath-VirtualBox systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Aug 13 12:20:26 vishwanath-VirtualBox systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+Aug 13 12:20:26 vishwanath-VirtualBox systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 18.
+Aug 13 12:20:26 vishwanath-VirtualBox systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+Aug 13 12:20:26 vishwanath-VirtualBox systemd[1]: Started kubelet: The Kubernetes Node Agent.
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: Flag --cgroup-driver has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.io/docs/tasks/administer-cluster/kubelet-config-file/ for more information.
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: Flag --resolv-conf has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.io/docs/tasks/administer-cluster/kubelet-config-file/ for more information.
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: Flag --cgroup-driver has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.io/docs/tasks/administer-cluster/kubelet-config-file/ for more information.
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: Flag --resolv-conf has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.io/docs/tasks/administer-cluster/kubelet-config-file/ for more information.
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.071555   15253 server.go:425] Version: v1.15.2
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.071869   15253 plugins.go:103] No cloud provider specified.
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.071896   15253 server.go:791] Client rotation is on, will bootstrap in background
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:27.095710   15253 certificate_manager.go:400] Failed while requesting a signed certificate from the master: cannot create certificate signing request: Post https://10.0.2.15:6443/apis/certificates.k8s.io/v1beta1/certificatesigningrequests: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.135527   15253 server.go:661] --cgroups-per-qos enabled, but --cgroup-root was not specified.  defaulting to /
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.142599   15253 container_manager_linux.go:261] container manager verified user specified cgroup-root exists: []
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.142639   15253 container_manager_linux.go:266] Creating Container Manager object based on Node Config: {RuntimeCgroupsName: SystemCgroupsName: KubeletCgroupsName: ContainerRuntime:docker CgroupsPerQOS:true CgroupRoot:/ CgroupDriver:cgroupfs KubeletRootDir:/var/lib/kubelet ProtectKernelDefaults:false NodeAllocatableConfig:{KubeReservedCgroupName: SystemReservedCgroupName: EnforceNodeAllocatable:map[pods:{}] KubeReserved:map[] SystemReserved:map[] HardEvictionThresholds:[{Signal:imagefs.available Operator:LessThan Value:{Quantity:<nil> Percentage:0.15} GracePeriod:0s MinReclaim:<nil>} {Signal:memory.available Operator:LessThan Value:{Quantity:100Mi Percentage:0} GracePeriod:0s MinReclaim:<nil>} {Signal:nodefs.available Operator:LessThan Value:{Quantity:<nil> Percentage:0.1} GracePeriod:0s MinReclaim:<nil>} {Signal:nodefs.inodesFree Operator:LessThan Value:{Quantity:<nil> Percentage:0.05} GracePeriod:0s MinReclaim:<nil>}]} QOSReserved:map[] ExperimentalCPUManagerPolicy:none ExperimentalCPUManagerReconcilePeriod:10s ExperimentalPodPidsLimit:-1 EnforceCPULimits:true CPUCFSQuotaPeriod:100ms}
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.143465   15253 container_manager_linux.go:286] Creating device plugin manager: true
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.143598   15253 state_mem.go:36] [cpumanager] initializing new in-memory state store
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.155179   15253 kubelet.go:281] Adding pod path: /etc/kubernetes/manifests
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.155348   15253 kubelet.go:306] Watching apiserver
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:27.156663   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:27.157045   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:27.157750   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.188092   15253 client.go:75] Connecting to docker on unix:///var/run/docker.sock
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.188133   15253 client.go:104] Start docker client with request timeout=2m0s
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:27.190827   15253 docker_service.go:561] Hairpin mode set to "promiscuous-bridge" but kubenet is not enabled, falling back to "hairpin-veth"
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.190859   15253 docker_service.go:238] Hairpin mode set to "hairpin-veth"
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:27.191003   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:27.193986   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.194126   15253 docker_service.go:253] Docker cri networking managed by cni
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:27.194298   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.205687   15253 docker_service.go:258] Docker Info: &{ID:7BRE:JO7X:SJ4S:4GDH:NWW3:QLOC:BXQ5:4RC4:HR2Q:B7SG:IENF:FQWS Containers:0 ContainersRunning:0 ContainersPaused:0 ContainersStopped:0 Images:7 Driver:overlay2 DriverStatus:[[Backing Filesystem extfs] [Supports d_type true] [Native Overlay Diff true]] SystemStatus:[] Plugins:{Volume:[local] Network:[bridge host macvlan null overlay] Authorization:[] Log:[awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog]} MemoryLimit:true SwapLimit:false KernelMemory:true KernelMemoryTCP:false CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:false IPv4Forwarding:true BridgeNfIptables:true BridgeNfIP6tables:true Debug:false NFd:24 OomKillDisable:true NGoroutines:39 SystemTime:2019-08-13T12:20:27.195608203+05:30 LoggingDriver:json-file CgroupDriver:cgroupfs NEventsListener:0 KernelVersion:4.18.0-15-generic OperatingSystem:Ubuntu 18.04.2 LTS OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:0xc0007bc310 NCPU:3 MemTotal:4136099840 GenericResources:[] DockerRootDir:/var/lib/docker HTTPProxy: HTTPSProxy: NoProxy: Name:vishwanath-VirtualBox Labels:[] ExperimentalBuild:false ServerVersion:18.09.7 ClusterStore: ClusterAdvertise: Runtimes:map[runc:{Path:runc Args:[]}] DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:[] Nodes:0 Managers:0 Cluster:<nil> Warnings:[]} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID: Expected:} RuncCommit:{ID:N/A Expected:N/A} InitCommit:{ID:v0.18.0 Expected:fec3683b971d9c3ef73f284f176672c44b448662} SecurityOptions:[name=apparmor name=seccomp,profile=default] ProductLicense: Warnings:[WARNING: No swap limit support]}
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.205848   15253 docker_service.go:271] Setting cgroupDriver to cgroupfs
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.221806   15253 remote_runtime.go:59] parsed scheme: ""
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.221835   15253 remote_runtime.go:59] scheme "" not registered, fallback to default scheme
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.221905   15253 remote_image.go:50] parsed scheme: ""
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.221930   15253 remote_image.go:50] scheme "" not registered, fallback to default scheme
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.222054   15253 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{/var/run/dockershim.sock 0  <nil>}]
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.222078   15253 clientconn.go:796] ClientConn switching balancer to "pick_first"
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.222169   15253 balancer_conn_wrappers.go:131] pickfirstBalancer: HandleSubConnStateChange: 0xc000a2a2e0, CONNECTING
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.222521   15253 balancer_conn_wrappers.go:131] pickfirstBalancer: HandleSubConnStateChange: 0xc000a2a2e0, READY
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.222584   15253 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{/var/run/dockershim.sock 0  <nil>}]
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.222605   15253 clientconn.go:796] ClientConn switching balancer to "pick_first"
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.222662   15253 balancer_conn_wrappers.go:131] pickfirstBalancer: HandleSubConnStateChange: 0xc000a5e800, CONNECTING
+Aug 13 12:20:27 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:27.222837   15253 balancer_conn_wrappers.go:131] pickfirstBalancer: HandleSubConnStateChange: 0xc000a5e800, READY
+Aug 13 12:20:28 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:28.187036   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:28 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:28.187662   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:28 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:28.189781   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:29 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:29.133751   15253 certificate_manager.go:400] Failed while requesting a signed certificate from the master: cannot create certificate signing request: Post https://10.0.2.15:6443/apis/certificates.k8s.io/v1beta1/certificatesigningrequests: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:29 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:29.191091   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:29 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:29.202348   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:29 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:29.204753   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.194764   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.205573   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.207475   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.306794   15253 aws_credentials.go:77] while getting AWS credentials NoCredentialProviders: no valid providers in chain. Deprecated.
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]:         For verbose messaging see aws.Config.CredentialsChainVerboseErrors
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.318077   15253 kuberuntime_manager.go:205] Container runtime docker initialized, version: 18.09.7, apiVersion: 1.39.0
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:30.319252   15253 probe.go:268] Flexvolume plugin directory at /usr/libexec/kubernetes/kubelet-plugins/volume/exec/ does not exist. Recreating.
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.330254   15253 server.go:1083] Started kubelet
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.331166   15253 kubelet.go:1293] Image garbage collection failed once. Stats initialization may not have completed yet: failed to get imageFs info: unable to find data in memory cache
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.332227   15253 server.go:144] Starting to listen on 0.0.0.0:10250
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.335098   15253 event.go:249] Unable to write event: 'Post https://10.0.2.15:6443/api/v1/namespaces/default/events: dial tcp 10.0.2.15:6443: connect: connection refused' (may retry after sleeping)
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.341076   15253 fs_resource_analyzer.go:64] Starting FS ResourceAnalyzer
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.348900   15253 status_manager.go:152] Starting to sync pod status with apiserver
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.348827   15253 server.go:350] Adding debug handlers to kubelet server.
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.358788   15253 volume_manager.go:243] Starting Kubelet Volume Manager
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.358811   15253 desired_state_of_world_populator.go:130] Desired state populator starts to run
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.364895   15253 kubelet.go:1805] Starting kubelet main sync loop.
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.367785   15253 controller.go:115] failed to ensure node lease exists, will retry in 200ms, error: Get https://10.0.2.15:6443/apis/coordination.k8s.io/v1beta1/namespaces/kube-node-lease/leases/vishwanath-virtualbox?timeout=10s: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.372980   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.RuntimeClass: Get https://10.0.2.15:6443/apis/node.k8s.io/v1beta1/runtimeclasses?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.373392   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.376325   15253 kubelet.go:1822] skipping pod synchronization - container runtime status check may not have completed yet
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.378044   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.CSIDriver: Get https://10.0.2.15:6443/apis/storage.k8s.io/v1beta1/csidrivers?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.396480   15253 clientconn.go:440] parsed scheme: "unix"
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.396546   15253 clientconn.go:440] scheme "unix" not registered, fallback to default scheme
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.396603   15253 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{unix:///run/containerd/containerd.sock 0  <nil>}]
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.396619   15253 clientconn.go:796] ClientConn switching balancer to "pick_first"
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.396673   15253 balancer_conn_wrappers.go:131] pickfirstBalancer: HandleSubConnStateChange: 0xc0009c9590, CONNECTING
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.396934   15253 balancer_conn_wrappers.go:131] pickfirstBalancer: HandleSubConnStateChange: 0xc0009c9590, READY
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.459382   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.459454   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.465799   15253 kubelet_node_status.go:72] Attempting to register node vishwanath-virtualbox
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.466176   15253 kubelet_node_status.go:94] Unable to register node "vishwanath-virtualbox" with API server: Post https://10.0.2.15:6443/api/v1/nodes: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.478862   15253 kubelet.go:1822] skipping pod synchronization - container runtime status check may not have completed yet
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.546186   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.552114   15253 cpu_manager.go:155] [cpumanager] starting with none policy
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.552143   15253 cpu_manager.go:156] [cpumanager] reconciling every 10s
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.552165   15253 policy_none.go:42] [cpumanager] none policy: Start
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.562440   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.576984   15253 controller.go:115] failed to ensure node lease exists, will retry in 400ms, error: Get https://10.0.2.15:6443/apis/coordination.k8s.io/v1beta1/namespaces/kube-node-lease/leases/vishwanath-virtualbox?timeout=10s: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:30.593478   15253 manager.go:546] Failed to retrieve checkpoint for "kubelet_internal_checkpoint": checkpoint is not found
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.593983   15253 plugin_manager.go:116] Starting Kubelet Plugin Manager
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.594315   15253 eviction_manager.go:247] eviction manager: failed to get summary stats: failed to get node info: node "vishwanath-virtualbox" not found
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.665464   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.667303   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.681417   15253 kubelet_node_status.go:72] Attempting to register node vishwanath-virtualbox
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.682806   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.683838   15253 kubelet_node_status.go:94] Unable to register node "vishwanath-virtualbox" with API server: Post https://10.0.2.15:6443/api/v1/nodes: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.731285   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.731945   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:30.752222   15253 status_manager.go:485] Failed to get status for pod "kube-scheduler-vishwanath-virtualbox_kube-system(abfcb4f52e957b11256c1f6841d49700)": Get https://10.0.2.15:6443/api/v1/namespaces/kube-system/pods/kube-scheduler-vishwanath-virtualbox: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.759920   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.760969   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.766693   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:30.769392   15253 status_manager.go:485] Failed to get status for pod "etcd-vishwanath-virtualbox_kube-system(a176d74ba5728c967912160325d82788)": Get https://10.0.2.15:6443/api/v1/namespaces/kube-system/pods/etcd-vishwanath-virtualbox: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.774168   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.774944   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.784753   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "etcd-certs" (UniqueName: "kubernetes.io/host-path/a176d74ba5728c967912160325d82788-etcd-certs") pod "etcd-vishwanath-virtualbox" (UID: "a176d74ba5728c967912160325d82788")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.784839   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "etcd-data" (UniqueName: "kubernetes.io/host-path/a176d74ba5728c967912160325d82788-etcd-data") pod "etcd-vishwanath-virtualbox" (UID: "a176d74ba5728c967912160325d82788")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.784913   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "ca-certs" (UniqueName: "kubernetes.io/host-path/8555a9d51be4482b6d8af73bc20a2098-ca-certs") pod "kube-apiserver-vishwanath-virtualbox" (UID: "8555a9d51be4482b6d8af73bc20a2098")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.784975   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "etc-ca-certificates" (UniqueName: "kubernetes.io/host-path/8555a9d51be4482b6d8af73bc20a2098-etc-ca-certificates") pod "kube-apiserver-vishwanath-virtualbox" (UID: "8555a9d51be4482b6d8af73bc20a2098")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.785041   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "ca-certs" (UniqueName: "kubernetes.io/host-path/06dfe7231706fdb8f0a23e8fd07854f0-ca-certs") pod "kube-controller-manager-vishwanath-virtualbox" (UID: "06dfe7231706fdb8f0a23e8fd07854f0")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.785099   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "kubeconfig" (UniqueName: "kubernetes.io/host-path/06dfe7231706fdb8f0a23e8fd07854f0-kubeconfig") pod "kube-controller-manager-vishwanath-virtualbox" (UID: "06dfe7231706fdb8f0a23e8fd07854f0")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.785156   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "etc-pki" (UniqueName: "kubernetes.io/host-path/8555a9d51be4482b6d8af73bc20a2098-etc-pki") pod "kube-apiserver-vishwanath-virtualbox" (UID: "8555a9d51be4482b6d8af73bc20a2098")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.785217   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "etc-ca-certificates" (UniqueName: "kubernetes.io/host-path/06dfe7231706fdb8f0a23e8fd07854f0-etc-ca-certificates") pod "kube-controller-manager-vishwanath-virtualbox" (UID: "06dfe7231706fdb8f0a23e8fd07854f0")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.785275   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "etc-pki" (UniqueName: "kubernetes.io/host-path/06dfe7231706fdb8f0a23e8fd07854f0-etc-pki") pod "kube-controller-manager-vishwanath-virtualbox" (UID: "06dfe7231706fdb8f0a23e8fd07854f0")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.785331   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "k8s-certs" (UniqueName: "kubernetes.io/host-path/06dfe7231706fdb8f0a23e8fd07854f0-k8s-certs") pod "kube-controller-manager-vishwanath-virtualbox" (UID: "06dfe7231706fdb8f0a23e8fd07854f0")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.785507   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "usr-share-ca-certificates" (UniqueName: "kubernetes.io/host-path/06dfe7231706fdb8f0a23e8fd07854f0-usr-share-ca-certificates") pod "kube-controller-manager-vishwanath-virtualbox" (UID: "06dfe7231706fdb8f0a23e8fd07854f0")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.785584   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "usr-local-share-ca-certificates" (UniqueName: "kubernetes.io/host-path/06dfe7231706fdb8f0a23e8fd07854f0-usr-local-share-ca-certificates") pod "kube-controller-manager-vishwanath-virtualbox" (UID: "06dfe7231706fdb8f0a23e8fd07854f0")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.785641   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "kubeconfig" (UniqueName: "kubernetes.io/host-path/abfcb4f52e957b11256c1f6841d49700-kubeconfig") pod "kube-scheduler-vishwanath-virtualbox" (UID: "abfcb4f52e957b11256c1f6841d49700")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.785697   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "k8s-certs" (UniqueName: "kubernetes.io/host-path/8555a9d51be4482b6d8af73bc20a2098-k8s-certs") pod "kube-apiserver-vishwanath-virtualbox" (UID: "8555a9d51be4482b6d8af73bc20a2098")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.785758   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "usr-local-share-ca-certificates" (UniqueName: "kubernetes.io/host-path/8555a9d51be4482b6d8af73bc20a2098-usr-local-share-ca-certificates") pod "kube-apiserver-vishwanath-virtualbox" (UID: "8555a9d51be4482b6d8af73bc20a2098")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.785821   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "usr-share-ca-certificates" (UniqueName: "kubernetes.io/host-path/8555a9d51be4482b6d8af73bc20a2098-usr-share-ca-certificates") pod "kube-apiserver-vishwanath-virtualbox" (UID: "8555a9d51be4482b6d8af73bc20a2098")
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:30.786990   15253 status_manager.go:485] Failed to get status for pod "kube-apiserver-vishwanath-virtualbox_kube-system(8555a9d51be4482b6d8af73bc20a2098)": Get https://10.0.2.15:6443/api/v1/namespaces/kube-system/pods/kube-apiserver-vishwanath-virtualbox: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:30.790414   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:30.795324   15253 status_manager.go:485] Failed to get status for pod "kube-controller-manager-vishwanath-virtualbox_kube-system(06dfe7231706fdb8f0a23e8fd07854f0)": Get https://10.0.2.15:6443/api/v1/namespaces/kube-system/pods/kube-controller-manager-vishwanath-virtualbox: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.874758   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.977718   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:30.981107   15253 controller.go:115] failed to ensure node lease exists, will retry in 800ms, error: Get https://10.0.2.15:6443/apis/coordination.k8s.io/v1beta1/namespaces/kube-node-lease/leases/vishwanath-virtualbox?timeout=10s: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.079944   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:31.084820   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:31.100385   15253 kubelet_node_status.go:72] Attempting to register node vishwanath-virtualbox
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.110459   15253 kubelet_node_status.go:94] Unable to register node "vishwanath-virtualbox" with API server: Post https://10.0.2.15:6443/api/v1/nodes: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.181037   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.201746   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.217017   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.217017   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.281758   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.383841   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.395320   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.RuntimeClass: Get https://10.0.2.15:6443/apis/node.k8s.io/v1beta1/runtimeclasses?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.486669   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.593875   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.597553   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.CSIDriver: Get https://10.0.2.15:6443/apis/storage.k8s.io/v1beta1/csidrivers?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.695001   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.797082   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.784999   15253 controller.go:115] failed to ensure node lease exists, will retry in 1.6s, error: Get https://10.0.2.15:6443/apis/coordination.k8s.io/v1beta1/namespaces/kube-node-lease/leases/vishwanath-virtualbox?timeout=10s: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.898667   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:31.911206   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:31.941527   15253 kubelet_node_status.go:72] Attempting to register node vishwanath-virtualbox
+Aug 13 12:20:31 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.942815   15253 kubelet_node_status.go:94] Unable to register node "vishwanath-virtualbox" with API server: Post https://10.0.2.15:6443/api/v1/nodes: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:31.999990   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:32.101838   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:32.195215   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:32.204020   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:32.213412   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:32.221159   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:32.304356   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:32.399196   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:32.405517   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:32.507639   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:32.596357   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.RuntimeClass: Get https://10.0.2.15:6443/apis/node.k8s.io/v1beta1/runtimeclasses?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:32.609522   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:32.720499   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:32.795970   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.CSIDriver: Get https://10.0.2.15:6443/apis/storage.k8s.io/v1beta1/csidrivers?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:32.825283   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:32 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:32.925880   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.030743   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.132373   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.219584   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.223535   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.232847   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.333431   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.336152   15253 certificate_manager.go:400] Failed while requesting a signed certificate from the master: cannot create certificate signing request: Post https://10.0.2.15:6443/apis/certificates.k8s.io/v1beta1/certificatesigningrequests: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.403451   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.410719   15253 controller.go:115] failed to ensure node lease exists, will retry in 3.2s, error: Get https://10.0.2.15:6443/apis/coordination.k8s.io/v1beta1/namespaces/kube-node-lease/leases/vishwanath-virtualbox?timeout=10s: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.434428   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.535574   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:33.543695   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:33.562122   15253 kubelet_node_status.go:72] Attempting to register node vishwanath-virtualbox
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.596350   15253 kubelet_node_status.go:94] Unable to register node "vishwanath-virtualbox" with API server: Post https://10.0.2.15:6443/api/v1/nodes: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.637634   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.738971   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.796628   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.RuntimeClass: Get https://10.0.2.15:6443/apis/node.k8s.io/v1beta1/runtimeclasses?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.840942   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.971261   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:33 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:33.997068   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.CSIDriver: Get https://10.0.2.15:6443/apis/storage.k8s.io/v1beta1/csidrivers?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.073351   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.174043   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.223996   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.275420   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.377703   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.395620   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.483483   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.585464   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.595729   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.686151   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.787814   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.811368   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.RuntimeClass: Get https://10.0.2.15:6443/apis/node.k8s.io/v1beta1/runtimeclasses?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.889312   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.994277   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:34 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:34.998529   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.CSIDriver: Get https://10.0.2.15:6443/apis/storage.k8s.io/v1beta1/csidrivers?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.095176   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.195638   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.200891   15253 event.go:249] Unable to write event: 'Post https://10.0.2.15:6443/api/v1/namespaces/default/events: dial tcp 10.0.2.15:6443: connect: connection refused' (may retry after sleeping)
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.225693   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.296596   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.397046   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.399470   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.497630   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:35.519726   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:35.542221   15253 pod_container_deletor.go:75] Container "95e0b5e618798dd5d7649d1508e57c23ebd713f002cf1ffbbd281160942544f6" not found in pod's containers
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.596529   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.599704   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.600460   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.700185   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.805300   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.812949   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.RuntimeClass: Get https://10.0.2.15:6443/apis/node.k8s.io/v1beta1/runtimeclasses?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:35.905712   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.002166   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.CSIDriver: Get https://10.0.2.15:6443/apis/storage.k8s.io/v1beta1/csidrivers?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.006854   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.108198   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.210380   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.230026   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.313943   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.400650   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.414466   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.516215   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.603749   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.612246   15253 controller.go:115] failed to ensure node lease exists, will retry in 6.4s, error: Get https://10.0.2.15:6443/apis/coordination.k8s.io/v1beta1/namespaces/kube-node-lease/leases/vishwanath-virtualbox?timeout=10s: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.617792   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.718045   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:36.796806   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:36.799707   15253 kubelet_node_status.go:72] Attempting to register node vishwanath-virtualbox
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.800143   15253 kubelet_node_status.go:94] Unable to register node "vishwanath-virtualbox" with API server: Post https://10.0.2.15:6443/api/v1/nodes: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.818380   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.926996   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:36.954756   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:36.973018   15253 pod_container_deletor.go:75] Container "c18a82479a54fd5a065c64873c6c54bb51b9c3007142704588b2058d601d459b" not found in pod's containers
+Aug 13 12:20:36 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:36.997584   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:36.999557   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.RuntimeClass: Get https://10.0.2.15:6443/apis/node.k8s.io/v1beta1/runtimeclasses?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:37.030667   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:37.046197   15253 pod_container_deletor.go:75] Container "67190a21a27225e841eba5145917958a3ae24a02a2867bb3d8b8618ddf3e9a4e" not found in pod's containers
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:37.065299   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:37.068856   15253 pod_container_deletor.go:75] Container "25bd33cfe81af9a68a8c7458555e22ae818327e6db276fa2d18b70f14a499bac" not found in pod's containers
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:37.137570   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:37.202626   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:37.203784   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.CSIDriver: Get https://10.0.2.15:6443/apis/storage.k8s.io/v1beta1/csidrivers?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:37.237900   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:37.338358   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:37.394171   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:37.438771   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:37.540320   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:37.594276   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:37.640519   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:37.741190   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:37.824170   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:37.841706   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:37 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:37.943021   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.000895   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.RuntimeClass: Get https://10.0.2.15:6443/apis/node.k8s.io/v1beta1/runtimeclasses?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.043724   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.144423   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.205395   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.CSIDriver: Get https://10.0.2.15:6443/apis/storage.k8s.io/v1beta1/csidrivers?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.244804   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.345014   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.394927   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.446079   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.564833   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:38.584900   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:38.593943   15253 status_manager.go:485] Failed to get status for pod "kube-scheduler-vishwanath-virtualbox_kube-system(abfcb4f52e957b11256c1f6841d49700)": Get https://10.0.2.15:6443/api/v1/namespaces/kube-system/pods/kube-scheduler-vishwanath-virtualbox: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.665275   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.765810   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.794309   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.866063   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.966420   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:38 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:38.994226   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:39.066608   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:39.167082   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:39.193982   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.RuntimeClass: Get https://10.0.2.15:6443/apis/node.k8s.io/v1beta1/runtimeclasses?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:39.272981   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:39.373702   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:39.394514   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.CSIDriver: Get https://10.0.2.15:6443/apis/storage.k8s.io/v1beta1/csidrivers?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:39.474201   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:39.575188   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:39.593835   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:39.602071   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:39.613991   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:39.650500   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:39.664327   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:39.675833   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:39.776335   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:39.794335   15253 status_manager.go:485] Failed to get status for pod "kube-controller-manager-vishwanath-virtualbox_kube-system(06dfe7231706fdb8f0a23e8fd07854f0)": Get https://10.0.2.15:6443/api/v1/namespaces/kube-system/pods/kube-controller-manager-vishwanath-virtualbox: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:39.876895   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:39.977460   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:39 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:39.993755   15253 status_manager.go:485] Failed to get status for pod "etcd-vishwanath-virtualbox_kube-system(a176d74ba5728c967912160325d82788)": Get https://10.0.2.15:6443/api/v1/namespaces/kube-system/pods/etcd-vishwanath-virtualbox: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.077989   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.178557   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.194096   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.279197   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.379672   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:40.395213   15253 status_manager.go:485] Failed to get status for pod "kube-apiserver-vishwanath-virtualbox_kube-system(8555a9d51be4482b6d8af73bc20a2098)": Get https://10.0.2.15:6443/api/v1/namespaces/kube-system/pods/kube-apiserver-vishwanath-virtualbox: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.480596   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.580885   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.594400   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.594885   15253 eviction_manager.go:247] eviction manager: failed to get summary stats: failed to get node info: node "vishwanath-virtualbox" not found
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.601907   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:40.671560   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:40.671576   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:40.671629   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:40.671681   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.681348   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.781448   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.794474   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.RuntimeClass: Get https://10.0.2.15:6443/apis/node.k8s.io/v1beta1/runtimeclasses?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.882530   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.983522   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:40.994198   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.CSIDriver: Get https://10.0.2.15:6443/apis/storage.k8s.io/v1beta1/csidrivers?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:41 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:41.084151   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:41 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:41.186608   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:41 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:41.193828   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:41 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:41.287228   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:41 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:41.388790   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:41 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:41.394014   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:41 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:41.489356   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:41 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:41.506352   15253 certificate_manager.go:400] Failed while requesting a signed certificate from the master: cannot create certificate signing request: Post https://10.0.2.15:6443/apis/certificates.k8s.io/v1beta1/certificatesigningrequests: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:41 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:41.590905   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:41 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:41.595107   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: dial tcp 10.0.2.15:6443: connect: connection refused
+Aug 13 12:20:41 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:41.692463   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:41 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:41.792904   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:41 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:41.893475   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:41 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:41.994026   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:42 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:42.094593   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:42 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:42.195698   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:42 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:42.202954   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:20:42 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:42.296227   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:42 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:42.397735   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:42 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:42.498363   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:42 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:42.598945   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:42 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:42.699924   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:42 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:42.800599   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:42 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:42.902515   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:43 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:43.004971   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:43 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:43.105429   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:43 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:43.200481   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:20:43 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:43.203352   15253 kubelet_node_status.go:72] Attempting to register node vishwanath-virtualbox
+Aug 13 12:20:43 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:43.207102   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:43 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:43.307642   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:43 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:43.407968   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:43 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:43.509184   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:43 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:43.609529   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:43 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:43.709867   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:43 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:43.810249   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:43 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:43.910731   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:44 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:44.011322   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:44 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:44.111900   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:44 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:44.212361   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:44 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:44.313203   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:44 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:44.413721   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:44 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:44.513949   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:44 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:44.614097   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:44 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:44.714281   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:44 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:44.814518   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:44 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:44.914710   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:45 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:45.015317   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:45 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:45.115554   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:45 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:45.215804   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:45 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:45.317193   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:45 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:45.417723   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:45 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:45.518454   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:45 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:45.603863   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:20:45 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:45.619277   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:45 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:45.719925   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:45 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:45.820491   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:45 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:45.921004   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:46 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:46.023797   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:46 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:46.124279   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:46 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:46.224559   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:46 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:46.324983   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:46 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:46.425835   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:46 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:46.526418   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:46 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:46.627039   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:46 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:46.727523   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:46 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:46.828080   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:46 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:46.928924   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:47 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:47.030176   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:47 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:47.130731   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:47 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:47.204065   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:20:47 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:47.231288   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:47 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:47.331872   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:47 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:47.432078   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:47 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:47.532994   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:47 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:47.634556   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:47 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:47.736091   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:47 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:47.836729   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:47 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:47.937742   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:48 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:48.039748   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:48 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:48.140947   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:48 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:48.242725   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:48 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:48.343223   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:48 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:48.443793   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:48 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:48.544403   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:48 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:48.646786   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:48 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:48.747852   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:48 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:48.848402   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:48 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:48.948929   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:49 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:49.050529   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:49 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:49.151158   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:49 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:49.252630   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:49 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:49.354103   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:49 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:49.455598   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:49 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:49.556199   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:49 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:49.657716   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:49 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:49.758250   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:49 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:49.858820   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:49 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:49.960491   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:50 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:50.060955   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:50 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:50.163466   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:50 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:50.265107   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:50 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:50.366623   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:50 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:50.467128   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:50 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:50.568774   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:50 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:50.595110   15253 eviction_manager.go:247] eviction manager: failed to get summary stats: failed to get node info: node "vishwanath-virtualbox" not found
+Aug 13 12:20:50 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:50.605971   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:20:50 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:50.670263   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:50 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:50.770754   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:50 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:50.871399   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:50 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:50.971861   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:51.072454   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:51.172614   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:51.274577   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:51.375098   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:51.476792   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:51.577326   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:51.678712   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:51.779283   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:51.796203   15253 trace.go:81] Trace[1380514523]: "Reflector k8s.io/client-go/informers/factory.go:133 ListAndWatch" (started: 2019-08-13 12:20:41.795325526 +0530 IST m=+14.911061673) (total time: 10.000822948s):
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: Trace[1380514523]: [10.000822948s] [10.000822948s] END
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:51.796879   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.RuntimeClass: Get https://10.0.2.15:6443/apis/node.k8s.io/v1beta1/runtimeclasses?limit=500&resourceVersion=0: net/http: TLS handshake timeout
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:51.879831   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:51.980476   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:51.996823   15253 trace.go:81] Trace[1698197821]: "Reflector k8s.io/client-go/informers/factory.go:133 ListAndWatch" (started: 2019-08-13 12:20:41.995019694 +0530 IST m=+15.110755850) (total time: 10.001760948s):
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: Trace[1698197821]: [10.001760948s] [10.001760948s] END
+Aug 13 12:20:51 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:51.997452   15253 reflector.go:125] k8s.io/client-go/informers/factory.go:133: Failed to list *v1beta1.CSIDriver: Get https://10.0.2.15:6443/apis/storage.k8s.io/v1beta1/csidrivers?limit=500&resourceVersion=0: net/http: TLS handshake timeout
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:52.084858   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:52.187359   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:52.195414   15253 trace.go:81] Trace[554673164]: "Reflector k8s.io/kubernetes/pkg/kubelet/kubelet.go:444 ListAndWatch" (started: 2019-08-13 12:20:42.194159793 +0530 IST m=+15.309895952) (total time: 10.001222527s):
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: Trace[554673164]: [10.001222527s] [10.001222527s] END
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:52.195441   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:444: Failed to list *v1.Service: Get https://10.0.2.15:6443/api/v1/services?limit=500&resourceVersion=0: net/http: TLS handshake timeout
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:52.204917   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:52.287936   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:52.389477   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:52.395655   15253 trace.go:81] Trace[561355342]: "Reflector k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47 ListAndWatch" (started: 2019-08-13 12:20:42.394585979 +0530 IST m=+15.510322206) (total time: 10.001022986s):
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: Trace[561355342]: [10.001022986s] [10.001022986s] END
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:52.395687   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://10.0.2.15:6443/api/v1/pods?fieldSelector=spec.nodeName%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: net/http: TLS handshake timeout
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:52.491031   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:52.592682   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:52.597759   15253 trace.go:81] Trace[1048038621]: "Reflector k8s.io/kubernetes/pkg/kubelet/kubelet.go:453 ListAndWatch" (started: 2019-08-13 12:20:42.596465467 +0530 IST m=+15.712201585) (total time: 10.001244959s):
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: Trace[1048038621]: [10.001244959s] [10.001244959s] END
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:52.597790   15253 reflector.go:125] k8s.io/kubernetes/pkg/kubelet/kubelet.go:453: Failed to list *v1.Node: Get https://10.0.2.15:6443/api/v1/nodes?fieldSelector=metadata.name%3Dvishwanath-virtualbox&limit=500&resourceVersion=0: net/http: TLS handshake timeout
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:52.693184   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:52.793673   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:52.894371   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:52 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:52.994814   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:53 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:53.014411   15253 controller.go:115] failed to ensure node lease exists, will retry in 7s, error: Get https://10.0.2.15:6443/apis/coordination.k8s.io/v1beta1/namespaces/kube-node-lease/leases/vishwanath-virtualbox?timeout=10s: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+Aug 13 12:20:53 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:53.095417   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:53 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:53.195971   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:53 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:53.205121   15253 kubelet_node_status.go:94] Unable to register node "vishwanath-virtualbox" with API server: Post https://10.0.2.15:6443/api/v1/nodes: net/http: TLS handshake timeout
+Aug 13 12:20:53 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:53.296487   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:53 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:53.396620   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:53 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:53.496798   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:53 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:53.597276   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:53 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:53.697876   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:53 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:53.798328   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:53 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:53.898967   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:53 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:53.999454   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:54 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:54.100106   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:54 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:54.200579   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:54 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:54.301265   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:54 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:54.402715   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:54 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:54.503362   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:54 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:54.603810   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:54 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:54.704513   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:54 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:54.805056   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:54 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:54.906514   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:55 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:55.007074   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:55 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:55.107734   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:55 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:55.202924   15253 event.go:249] Unable to write event: 'Post https://10.0.2.15:6443/api/v1/namespaces/default/events: net/http: TLS handshake timeout' (may retry after sleeping)
+Aug 13 12:20:55 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:55.208166   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:55 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:55.336905   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:55 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:55.437326   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:55 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:55.537896   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:55 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:55.608128   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:20:55 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:55.638765   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:55 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:55.739299   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:55 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:55.839867   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:55 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:55.942050   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:56 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:56.042994   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:56 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:56.144514   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:56 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:56.246151   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:56 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:56.346677   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:56 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:56.447209   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:56 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:56.547845   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:56 vishwanath-VirtualBox kubelet[15253]: I0813 12:20:56.645936   15253 reconciler.go:150] Reconciler: start to sync state
+Aug 13 12:20:56 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:56.648363   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:56 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:56.749770   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:56 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:56.850379   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:56 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:56.958362   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:57 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:57.066052   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:57 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:57.166394   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:57 vishwanath-VirtualBox kubelet[15253]: W0813 12:20:57.205173   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:20:57 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:57.266889   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:57 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:57.368043   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:57 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:57.468855   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:57 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:57.570564   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:57 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:57.671107   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:57 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:57.771625   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:57 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:57.872136   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:57 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:57.973007   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:58 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:58.076505   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:58 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:58.177099   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:58 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:58.277874   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:58 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:58.381148   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:58 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:58.482021   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:58 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:58.583178   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:58 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:58.684565   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:58 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:58.785261   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:58 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:58.888558   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:58 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:58.991018   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:59 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:59.091364   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:59 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:59.192047   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:59 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:59.293441   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:59 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:59.394260   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:59 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:59.494968   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:59 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:59.596943   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:59 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:59.698069   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:59 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:59.799266   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:20:59 vishwanath-VirtualBox kubelet[15253]: E0813 12:20:59.901022   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:21:00 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:00.001906   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:21:00 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:00.040816   15253 controller.go:194] failed to get node "vishwanath-virtualbox" when trying to set owner ref to the node lease: nodes "vishwanath-virtualbox" not found
+Aug 13 12:21:00 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:00.102942   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:21:00 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:00.203364   15253 kubelet.go:2248] node "vishwanath-virtualbox" not found
+Aug 13 12:21:00 vishwanath-VirtualBox kubelet[15253]: I0813 12:21:00.205600   15253 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+Aug 13 12:21:00 vishwanath-VirtualBox kubelet[15253]: I0813 12:21:00.218836   15253 kubelet_node_status.go:72] Attempting to register node vishwanath-virtualbox
+Aug 13 12:21:00 vishwanath-VirtualBox kubelet[15253]: I0813 12:21:00.238425   15253 kubelet_node_status.go:75] Successfully registered node vishwanath-virtualbox
+Aug 13 12:21:00 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:00.613122   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:21:02 vishwanath-VirtualBox kubelet[15253]: W0813 12:21:02.207156   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:21:05 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:05.621482   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:21:07 vishwanath-VirtualBox kubelet[15253]: W0813 12:21:07.208236   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:21:10 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:10.631417   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:21:12 vishwanath-VirtualBox kubelet[15253]: W0813 12:21:12.209722   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:21:15 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:15.634218   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:21:16 vishwanath-VirtualBox kubelet[15253]: I0813 12:21:16.689752   15253 kuberuntime_manager.go:928] updating runtime config through cri with podcidr 192.168.0.0/24
+Aug 13 12:21:16 vishwanath-VirtualBox kubelet[15253]: I0813 12:21:16.690759   15253 docker_service.go:353] docker cri received runtime config &RuntimeConfig{NetworkConfig:&NetworkConfig{PodCidr:192.168.0.0/24,},}
+Aug 13 12:21:16 vishwanath-VirtualBox kubelet[15253]: I0813 12:21:16.691215   15253 kubelet_network.go:77] Setting Pod CIDR:  -> 192.168.0.0/24
+Aug 13 12:21:16 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:16.692515   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:21:16 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:16.744241   15253 reflector.go:125] object-"kube-system"/"kube-proxy-token-z5k2f": Failed to list *v1.Secret: secrets "kube-proxy-token-z5k2f" is forbidden: User "system:node:vishwanath-virtualbox" cannot list resource "secrets" in API group "" in the namespace "kube-system": no relationship found between node "vishwanath-virtualbox" and this object
+Aug 13 12:21:16 vishwanath-VirtualBox kubelet[15253]: I0813 12:21:16.837617   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "xtables-lock" (UniqueName: "kubernetes.io/host-path/d2604b13-4378-43ac-85a6-f954c6ac4491-xtables-lock") pod "kube-proxy-zcqbl" (UID: "d2604b13-4378-43ac-85a6-f954c6ac4491")
+Aug 13 12:21:16 vishwanath-VirtualBox kubelet[15253]: I0813 12:21:16.837749   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "kube-proxy-token-z5k2f" (UniqueName: "kubernetes.io/secret/d2604b13-4378-43ac-85a6-f954c6ac4491-kube-proxy-token-z5k2f") pod "kube-proxy-zcqbl" (UID: "d2604b13-4378-43ac-85a6-f954c6ac4491")
+Aug 13 12:21:16 vishwanath-VirtualBox kubelet[15253]: I0813 12:21:16.837814   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "kube-proxy" (UniqueName: "kubernetes.io/configmap/d2604b13-4378-43ac-85a6-f954c6ac4491-kube-proxy") pod "kube-proxy-zcqbl" (UID: "d2604b13-4378-43ac-85a6-f954c6ac4491")
+Aug 13 12:21:16 vishwanath-VirtualBox kubelet[15253]: I0813 12:21:16.837869   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "lib-modules" (UniqueName: "kubernetes.io/host-path/d2604b13-4378-43ac-85a6-f954c6ac4491-lib-modules") pod "kube-proxy-zcqbl" (UID: "d2604b13-4378-43ac-85a6-f954c6ac4491")
+Aug 13 12:21:17 vishwanath-VirtualBox kubelet[15253]: I0813 12:21:17.111187   15253 transport.go:132] certificate rotation detected, shutting down client connections to start using new credentials
+Aug 13 12:21:17 vishwanath-VirtualBox kubelet[15253]: W0813 12:21:17.118879   15253 reflector.go:302] object-"kube-system"/"kube-proxy": watch of *v1.ConfigMap ended with: very short watch: object-"kube-system"/"kube-proxy": Unexpected watch close - watch lasted less than a second and no items received
+Aug 13 12:21:17 vishwanath-VirtualBox kubelet[15253]: W0813 12:21:17.210876   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:21:18 vishwanath-VirtualBox kubelet[15253]: W0813 12:21:18.623395   15253 pod_container_deletor.go:75] Container "acf720e368ce2f6c79868d660e5e1245783a58ece7fc55eda9b2193fd9108999" not found in pod's containers
+Aug 13 12:21:20 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:20.638692   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:21:22 vishwanath-VirtualBox kubelet[15253]: W0813 12:21:22.216521   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:21:25 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:25.640956   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:21:27 vishwanath-VirtualBox kubelet[15253]: W0813 12:21:27.217186   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:21:30 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:30.642510   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:21:32 vishwanath-VirtualBox kubelet[15253]: W0813 12:21:32.217653   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:21:35 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:35.651445   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:21:37 vishwanath-VirtualBox kubelet[15253]: W0813 12:21:37.218435   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:21:40 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:40.656976   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:21:42 vishwanath-VirtualBox kubelet[15253]: W0813 12:21:42.219129   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:21:45 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:45.660838   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:21:47 vishwanath-VirtualBox kubelet[15253]: W0813 12:21:47.219523   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:21:50 vishwanath-VirtualBox kubelet[15253]: E0813 12:21:50.662493   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:21:52 vishwanath-VirtualBox kubelet[15253]: W0813 12:21:52.219948   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:21:55 kmaster kubelet[15253]: E0813 12:21:55.665534   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:21:57 kmaster kubelet[15253]: W0813 12:21:57.223469   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:22:00 kmaster kubelet[15253]: E0813 12:22:00.674477   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:22:02 kmaster kubelet[15253]: W0813 12:22:02.228951   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:22:05 kmaster kubelet[15253]: E0813 12:22:05.683920   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:22:07 kmaster kubelet[15253]: W0813 12:22:07.229730   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:22:10 kmaster kubelet[15253]: E0813 12:22:10.685634   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:22:12 kmaster kubelet[15253]: W0813 12:22:12.233856   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:22:15 kmaster kubelet[15253]: E0813 12:22:15.687357   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:22:17 kmaster kubelet[15253]: W0813 12:22:17.234085   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:22:20 kmaster kubelet[15253]: E0813 12:22:20.689133   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:22:22 kmaster kubelet[15253]: W0813 12:22:22.234343   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:22:25 kmaster kubelet[15253]: E0813 12:22:25.690853   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:22:27 kmaster kubelet[15253]: W0813 12:22:27.264678   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:22:30 kmaster kubelet[15253]: E0813 12:22:30.694849   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:22:32 kmaster kubelet[15253]: W0813 12:22:32.268744   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:22:35 kmaster kubelet[15253]: E0813 12:22:35.697568   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:22:37 kmaster kubelet[15253]: W0813 12:22:37.274620   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:22:40 kmaster kubelet[15253]: E0813 12:22:40.700038   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:22:42 kmaster kubelet[15253]: W0813 12:22:42.276714   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:22:45 kmaster kubelet[15253]: E0813 12:22:45.702268   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:22:47 kmaster kubelet[15253]: W0813 12:22:47.278538   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:22:50 kmaster kubelet[15253]: E0813 12:22:50.704470   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:22:52 kmaster kubelet[15253]: W0813 12:22:52.279453   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:22:55 kmaster kubelet[15253]: E0813 12:22:55.706936   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:22:57 kmaster kubelet[15253]: W0813 12:22:57.281823   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:23:00 kmaster kubelet[15253]: E0813 12:23:00.710154   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:23:02 kmaster kubelet[15253]: W0813 12:23:02.286284   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:23:05 kmaster kubelet[15253]: E0813 12:23:05.715552   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:23:07 kmaster kubelet[15253]: W0813 12:23:07.288843   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:23:10 kmaster kubelet[15253]: E0813 12:23:10.723580   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:23:12 kmaster kubelet[15253]: W0813 12:23:12.291483   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:23:15 kmaster kubelet[15253]: E0813 12:23:15.725167   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:23:17 kmaster kubelet[15253]: W0813 12:23:17.297197   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:23:20 kmaster kubelet[15253]: E0813 12:23:20.729816   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:23:22 kmaster kubelet[15253]: W0813 12:23:22.297839   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:23:25 kmaster kubelet[15253]: E0813 12:23:25.744244   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:23:27 kmaster kubelet[15253]: W0813 12:23:27.298187   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:23:30 kmaster kubelet[15253]: E0813 12:23:30.768934   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:23:32 kmaster kubelet[15253]: W0813 12:23:32.300183   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:23:35 kmaster kubelet[15253]: E0813 12:23:35.770763   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:23:37 kmaster kubelet[15253]: W0813 12:23:37.302671   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:23:40 kmaster kubelet[15253]: E0813 12:23:40.792231   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:23:42 kmaster kubelet[15253]: W0813 12:23:42.303931   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:23:45 kmaster kubelet[15253]: E0813 12:23:45.799301   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:23:47 kmaster kubelet[15253]: W0813 12:23:47.305303   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:23:50 kmaster kubelet[15253]: E0813 12:23:50.805015   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:23:52 kmaster kubelet[15253]: W0813 12:23:52.309245   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:23:55 kmaster kubelet[15253]: E0813 12:23:55.807323   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:23:57 kmaster kubelet[15253]: W0813 12:23:57.313584   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:24:00 kmaster kubelet[15253]: E0813 12:24:00.817524   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:24:02 kmaster kubelet[15253]: W0813 12:24:02.315353   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:24:05 kmaster kubelet[15253]: E0813 12:24:05.828967   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:24:07 kmaster kubelet[15253]: W0813 12:24:07.317671   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:24:10 kmaster kubelet[15253]: I0813 12:24:10.704346   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "weave-net-token-qgtsn" (UniqueName: "kubernetes.io/secret/28d4195e-7926-42df-85f9-9f107559cafc-weave-net-token-qgtsn") pod "weave-net-sd6js" (UID: "28d4195e-7926-42df-85f9-9f107559cafc")
+Aug 13 12:24:10 kmaster kubelet[15253]: I0813 12:24:10.705242   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "weavedb" (UniqueName: "kubernetes.io/host-path/28d4195e-7926-42df-85f9-9f107559cafc-weavedb") pod "weave-net-sd6js" (UID: "28d4195e-7926-42df-85f9-9f107559cafc")
+Aug 13 12:24:10 kmaster kubelet[15253]: I0813 12:24:10.705497   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "dbus" (UniqueName: "kubernetes.io/host-path/28d4195e-7926-42df-85f9-9f107559cafc-dbus") pod "weave-net-sd6js" (UID: "28d4195e-7926-42df-85f9-9f107559cafc")
+Aug 13 12:24:10 kmaster kubelet[15253]: I0813 12:24:10.705706   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "cni-conf" (UniqueName: "kubernetes.io/host-path/28d4195e-7926-42df-85f9-9f107559cafc-cni-conf") pod "weave-net-sd6js" (UID: "28d4195e-7926-42df-85f9-9f107559cafc")
+Aug 13 12:24:10 kmaster kubelet[15253]: I0813 12:24:10.705896   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "cni-bin2" (UniqueName: "kubernetes.io/host-path/28d4195e-7926-42df-85f9-9f107559cafc-cni-bin2") pod "weave-net-sd6js" (UID: "28d4195e-7926-42df-85f9-9f107559cafc")
+Aug 13 12:24:10 kmaster kubelet[15253]: I0813 12:24:10.706087   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "cni-bin" (UniqueName: "kubernetes.io/host-path/28d4195e-7926-42df-85f9-9f107559cafc-cni-bin") pod "weave-net-sd6js" (UID: "28d4195e-7926-42df-85f9-9f107559cafc")
+Aug 13 12:24:10 kmaster kubelet[15253]: I0813 12:24:10.706274   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "xtables-lock" (UniqueName: "kubernetes.io/host-path/28d4195e-7926-42df-85f9-9f107559cafc-xtables-lock") pod "weave-net-sd6js" (UID: "28d4195e-7926-42df-85f9-9f107559cafc")
+Aug 13 12:24:10 kmaster kubelet[15253]: I0813 12:24:10.706503   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "lib-modules" (UniqueName: "kubernetes.io/host-path/28d4195e-7926-42df-85f9-9f107559cafc-lib-modules") pod "weave-net-sd6js" (UID: "28d4195e-7926-42df-85f9-9f107559cafc")
+Aug 13 12:24:10 kmaster kubelet[15253]: E0813 12:24:10.837600   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:24:11 kmaster kubelet[15253]: W0813 12:24:11.649047   15253 pod_container_deletor.go:75] Container "bfbe0655db951dd3ca88adf5c62a683f124e46c6b4bf36266826cd401d54436d" not found in pod's containers
+Aug 13 12:24:12 kmaster kubelet[15253]: W0813 12:24:12.319120   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:24:15 kmaster kubelet[15253]: E0813 12:24:15.845141   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:24:17 kmaster kubelet[15253]: W0813 12:24:17.319690   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:24:20 kmaster kubelet[15253]: E0813 12:24:20.847175   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:24:22 kmaster kubelet[15253]: W0813 12:24:22.319900   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:24:25 kmaster kubelet[15253]: E0813 12:24:25.850605   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:24:27 kmaster kubelet[15253]: W0813 12:24:27.321267   15253 cni.go:213] Unable to update cni config: No networks found in /etc/cni/net.d
+Aug 13 12:24:30 kmaster kubelet[15253]: E0813 12:24:30.852486   15253 kubelet.go:2169] Container runtime network not ready: NetworkReady=false reason:NetworkPluginNotReady message:docker: network plugin is not ready: cni config uninitialized
+Aug 13 12:24:43 kmaster kubelet[15253]: I0813 12:24:43.773624   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "config-volume" (UniqueName: "kubernetes.io/configmap/6efa160d-0837-4449-b0e7-b9c99357aa3c-config-volume") pod "coredns-5c98db65d4-dkgs8" (UID: "6efa160d-0837-4449-b0e7-b9c99357aa3c")
+Aug 13 12:24:43 kmaster kubelet[15253]: I0813 12:24:43.774156   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "coredns-token-fhk5d" (UniqueName: "kubernetes.io/secret/2703d6ce-5c80-4186-821c-43e84d813b81-coredns-token-fhk5d") pod "coredns-5c98db65d4-v8xjk" (UID: "2703d6ce-5c80-4186-821c-43e84d813b81")
+Aug 13 12:24:43 kmaster kubelet[15253]: I0813 12:24:43.776470   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "coredns-token-fhk5d" (UniqueName: "kubernetes.io/secret/6efa160d-0837-4449-b0e7-b9c99357aa3c-coredns-token-fhk5d") pod "coredns-5c98db65d4-dkgs8" (UID: "6efa160d-0837-4449-b0e7-b9c99357aa3c")
+Aug 13 12:24:43 kmaster kubelet[15253]: I0813 12:24:43.776632   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "config-volume" (UniqueName: "kubernetes.io/configmap/2703d6ce-5c80-4186-821c-43e84d813b81-config-volume") pod "coredns-5c98db65d4-v8xjk" (UID: "2703d6ce-5c80-4186-821c-43e84d813b81")
+Aug 13 12:24:45 kmaster kubelet[15253]: W0813 12:24:45.616192   15253 pod_container_deletor.go:75] Container "8d95ec4f21a599554cfa73e5a3f326c36683d4cce969ac3cb497700bba240d84" not found in pod's containers
+Aug 13 12:24:45 kmaster kubelet[15253]: W0813 12:24:45.769199   15253 pod_container_deletor.go:75] Container "cc9a51e78b25ee7b9ac812f306f6e028dd07bce616d1e658cbaf92fdbb758c30" not found in pod's containers
+Aug 13 12:24:47 kmaster kubelet[15253]: E0813 12:24:47.292924   15253 remote_runtime.go:295] ContainerStatus "653727b9e1e9ef960f93dd6b089d7c261132fe670f9a884fda2f7d18db478603" from runtime service failed: rpc error: code = Unknown desc = Error: No such container: 653727b9e1e9ef960f93dd6b089d7c261132fe670f9a884fda2f7d18db478603
+Aug 13 12:24:47 kmaster kubelet[15253]: E0813 12:24:47.293722   15253 kuberuntime_manager.go:902] getPodContainerStatuses for pod "coredns-5c98db65d4-v8xjk_kube-system(2703d6ce-5c80-4186-821c-43e84d813b81)" failed: rpc error: code = Unknown desc = Error: No such container: 653727b9e1e9ef960f93dd6b089d7c261132fe670f9a884fda2f7d18db478603
+Aug 13 12:27:20 kmaster kubelet[15253]: I0813 12:27:20.603134   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "default-token-wh8hq" (UniqueName: "kubernetes.io/secret/cfe195d1-c005-4055-8d19-95482dd1e6e4-default-token-wh8hq") pod "myimg-57c7c4d9d8-qrbvd" (UID: "cfe195d1-c005-4055-8d19-95482dd1e6e4")
+Aug 13 12:27:21 kmaster kubelet[15253]: W0813 12:27:21.736492   15253 pod_container_deletor.go:75] Container "57973426431cd93e1bc192dd502f3a3407f6d7ae97dbec9379728b5f67a9b187" not found in pod's containers
+Aug 13 12:31:47 kmaster kubelet[15253]: I0813 12:31:47.970371   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "default-token-wh8hq" (UniqueName: "kubernetes.io/secret/a3711468-e41c-4d24-8792-d8a559f7ba75-default-token-wh8hq") pod "countdown-h2w7r" (UID: "a3711468-e41c-4d24-8792-d8a559f7ba75")
+Aug 13 12:31:49 kmaster kubelet[15253]: W0813 12:31:49.127217   15253 pod_container_deletor.go:75] Container "952f43b8459802781c14501a5c99b0df55c575671e8f5965854cb5e32348e037" not found in pod's containers
+Aug 13 12:32:16 kmaster kubelet[15253]: I0813 12:32:16.930150   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "default-token-wh8hq" (UniqueName: "kubernetes.io/secret/3285d981-6a2f-4a09-9020-5e8d3dc6f56e-default-token-wh8hq") pod "myimg-57c7c4d9d8-v6nzv" (UID: "3285d981-6a2f-4a09-9020-5e8d3dc6f56e")
+Aug 13 12:32:23 kmaster kubelet[15253]: W0813 12:32:23.063576   15253 docker_sandbox.go:384] failed to read pod IP from plugin/docker: NetworkPlugin cni failed on the status hook for pod "myimg-57c7c4d9d8-qrbvd_default": Unexpected command output Device "eth0" does not exist.
+Aug 13 12:32:23 kmaster kubelet[15253]:  with error: exit status 1
+Aug 13 12:32:23 kmaster kubelet[15253]: W0813 12:32:23.128638   15253 pod_container_deletor.go:75] Container "cd10b526141707f15690439161a365e743fcc4ae9026c2b8228b67f63fc23b00" not found in pod's containers
+Aug 13 12:32:24 kmaster kubelet[15253]: I0813 12:32:24.428987   15253 reconciler.go:177] operationExecutor.UnmountVolume started for volume "default-token-wh8hq" (UniqueName: "kubernetes.io/secret/cfe195d1-c005-4055-8d19-95482dd1e6e4-default-token-wh8hq") pod "cfe195d1-c005-4055-8d19-95482dd1e6e4" (UID: "cfe195d1-c005-4055-8d19-95482dd1e6e4")
+Aug 13 12:32:24 kmaster kubelet[15253]: I0813 12:32:24.505330   15253 operation_generator.go:860] UnmountVolume.TearDown succeeded for volume "kubernetes.io/secret/cfe195d1-c005-4055-8d19-95482dd1e6e4-default-token-wh8hq" (OuterVolumeSpecName: "default-token-wh8hq") pod "cfe195d1-c005-4055-8d19-95482dd1e6e4" (UID: "cfe195d1-c005-4055-8d19-95482dd1e6e4"). InnerVolumeSpecName "default-token-wh8hq". PluginName "kubernetes.io/secret", VolumeGidValue ""
+Aug 13 12:32:24 kmaster kubelet[15253]: I0813 12:32:24.529760   15253 reconciler.go:297] Volume detached for volume "default-token-wh8hq" (UniqueName: "kubernetes.io/secret/cfe195d1-c005-4055-8d19-95482dd1e6e4-default-token-wh8hq") on node "vishwanath-virtualbox" DevicePath ""
+Aug 13 12:32:26 kmaster kubelet[15253]: I0813 12:32:26.468057   15253 reconciler.go:177] operationExecutor.UnmountVolume started for volume "default-token-wh8hq" (UniqueName: "kubernetes.io/secret/a3711468-e41c-4d24-8792-d8a559f7ba75-default-token-wh8hq") pod "a3711468-e41c-4d24-8792-d8a559f7ba75" (UID: "a3711468-e41c-4d24-8792-d8a559f7ba75")
+Aug 13 12:32:26 kmaster kubelet[15253]: I0813 12:32:26.502405   15253 operation_generator.go:860] UnmountVolume.TearDown succeeded for volume "kubernetes.io/secret/a3711468-e41c-4d24-8792-d8a559f7ba75-default-token-wh8hq" (OuterVolumeSpecName: "default-token-wh8hq") pod "a3711468-e41c-4d24-8792-d8a559f7ba75" (UID: "a3711468-e41c-4d24-8792-d8a559f7ba75"). InnerVolumeSpecName "default-token-wh8hq". PluginName "kubernetes.io/secret", VolumeGidValue ""
+Aug 13 12:32:26 kmaster kubelet[15253]: I0813 12:32:26.570209   15253 reconciler.go:297] Volume detached for volume "default-token-wh8hq" (UniqueName: "kubernetes.io/secret/a3711468-e41c-4d24-8792-d8a559f7ba75-default-token-wh8hq") on node "vishwanath-virtualbox" DevicePath ""
+Aug 13 12:32:26 kmaster kubelet[15253]: W0813 12:32:26.619373   15253 pod_container_deletor.go:75] Container "952f43b8459802781c14501a5c99b0df55c575671e8f5965854cb5e32348e037" not found in pod's containers
+Aug 13 12:33:31 kmaster kubelet[15253]: E0813 12:33:31.933763   15253 remote_runtime.go:295] ContainerStatus "0ed104a5cdcf149172288fe0536ff2ddf388e40ea63366e9ecbe604b0bb21d38" from runtime service failed: rpc error: code = Unknown desc = Error: No such container: 0ed104a5cdcf149172288fe0536ff2ddf388e40ea63366e9ecbe604b0bb21d38
+Aug 13 12:33:32 kmaster kubelet[15253]: I0813 12:33:32.041360   15253 reconciler.go:177] operationExecutor.UnmountVolume started for volume "default-token-wh8hq" (UniqueName: "kubernetes.io/secret/3285d981-6a2f-4a09-9020-5e8d3dc6f56e-default-token-wh8hq") pod "3285d981-6a2f-4a09-9020-5e8d3dc6f56e" (UID: "3285d981-6a2f-4a09-9020-5e8d3dc6f56e")
+Aug 13 12:33:32 kmaster kubelet[15253]: I0813 12:33:32.092358   15253 operation_generator.go:860] UnmountVolume.TearDown succeeded for volume "kubernetes.io/secret/3285d981-6a2f-4a09-9020-5e8d3dc6f56e-default-token-wh8hq" (OuterVolumeSpecName: "default-token-wh8hq") pod "3285d981-6a2f-4a09-9020-5e8d3dc6f56e" (UID: "3285d981-6a2f-4a09-9020-5e8d3dc6f56e"). InnerVolumeSpecName "default-token-wh8hq". PluginName "kubernetes.io/secret", VolumeGidValue ""
+Aug 13 12:33:32 kmaster kubelet[15253]: I0813 12:33:32.144390   15253 reconciler.go:297] Volume detached for volume "default-token-wh8hq" (UniqueName: "kubernetes.io/secret/3285d981-6a2f-4a09-9020-5e8d3dc6f56e-default-token-wh8hq") on node "vishwanath-virtualbox" DevicePath ""
+Aug 13 12:33:32 kmaster kubelet[15253]: E0813 12:33:32.397769   15253 kubelet_pods.go:1093] Failed killing the pod "myimg-57c7c4d9d8-v6nzv": failed to "KillContainer" for "myimg" with KillContainerError: "rpc error: code = Unknown desc = Error: No such container: 0ed104a5cdcf149172288fe0536ff2ddf388e40ea63366e9ecbe604b0bb21d38"
+Aug 13 12:41:14 kmaster kubelet[15253]: W0813 12:41:14.483750   15253 status_manager.go:501] Failed to update status for pod "countdown-h2w7r_default(a3711468-e41c-4d24-8792-d8a559f7ba75)": failed to patch status "{\"status\":{\"containerStatuses\":[{\"containerID\":\"docker://a475aa6405b9520cbbea5ce70d19a02efac4ed878e2f1933c344f680a3959da4\",\"image\":\"centos:7\",\"imageID\":\"docker-pullable://centos@sha256:a799dd8a2ded4a83484bbae769d97655392b3f86533ceb7dd96bbac929809f3c\",\"lastState\":{},\"name\":\"counter\",\"ready\":false,\"restartCount\":0,\"state\":{\"terminated\":{\"exitCode\":0,\"finishedAt\":null,\"startedAt\":null}}}]}}" for pod "default"/"countdown-h2w7r": pods "countdown-h2w7r" not found
+Aug 13 12:44:49 kmaster kubelet[15253]: E0813 12:44:49.857063   15253 reflector.go:125] object-"default"/"default-token-wh8hq": Failed to list *v1.Secret: secrets "default-token-wh8hq" is forbidden: User "system:node:vishwanath-virtualbox" cannot list resource "secrets" in API group "" in the namespace "default": no relationship found between node "vishwanath-virtualbox" and this object
+Aug 13 12:44:49 kmaster kubelet[15253]: I0813 12:44:49.995775   15253 reconciler.go:203] operationExecutor.VerifyControllerAttachedVolume started for volume "default-token-wh8hq" (UniqueName: "kubernetes.io/secret/645c0b71-2bb6-494c-9570-6a3e87451713-default-token-wh8hq") pod "nginx-pod" (UID: "645c0b71-2bb6-494c-9570-6a3e87451713")
+Aug 13 12:44:52 kmaster kubelet[15253]: W0813 12:44:52.056860   15253 pod_container_deletor.go:75] Container "cd1d5e119806b61697fcf15e8176647976f3f4e87097645687ef82f79dfddfb0" not found in pod's containers

@@ -1,0 +1,14 @@
+#Use this command first: kubectl create serviceaccount reader
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    name: nginx
+spec:
+  containers:
+  - name: nginx
+    serviceAccountName: reader
+    image: nginx
+    ports:
+    - containerPort: 80

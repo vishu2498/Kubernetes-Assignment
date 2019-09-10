@@ -1,0 +1,13 @@
+#Use this command first: kubectl create serviceaccount reader
+apiVersion: rbac.authorization.k8s.io/v1beta1
+kind: ClusterRole
+metadata:
+  namespace: default
+  name: reader
+rules:
+- apiGroups:
+  - ""
+  resources:
+  - pods
+  verbs:
+  - get

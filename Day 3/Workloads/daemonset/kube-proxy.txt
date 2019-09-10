@@ -1,0 +1,14 @@
+{"log":"W0813 11:57:12.903628       1 server_others.go:249] Flag proxy-mode=\"\" unknown, assuming iptables proxy\n","stream":"stderr","time":"2019-08-13T11:57:12.9043221Z"}
+{"log":"I0813 11:57:12.935468       1 server_others.go:143] Using iptables Proxier.\n","stream":"stderr","time":"2019-08-13T11:57:12.935651369Z"}
+{"log":"I0813 11:57:12.936515       1 server.go:534] Version: v1.15.2\n","stream":"stderr","time":"2019-08-13T11:57:12.936658251Z"}
+{"log":"I0813 11:57:12.958172       1 conntrack.go:100] Set sysctl 'net/netfilter/nf_conntrack_max' to 131072\n","stream":"stderr","time":"2019-08-13T11:57:12.959325872Z"}
+{"log":"I0813 11:57:12.958267       1 conntrack.go:52] Setting nf_conntrack_max to 131072\n","stream":"stderr","time":"2019-08-13T11:57:12.95935152Z"}
+{"log":"I0813 11:57:12.958788       1 conntrack.go:83] Setting conntrack hashsize to 32768\n","stream":"stderr","time":"2019-08-13T11:57:12.959359352Z"}
+{"log":"I0813 11:57:12.973763       1 conntrack.go:100] Set sysctl 'net/netfilter/nf_conntrack_tcp_timeout_established' to 86400\n","stream":"stderr","time":"2019-08-13T11:57:12.974059914Z"}
+{"log":"I0813 11:57:12.973898       1 conntrack.go:100] Set sysctl 'net/netfilter/nf_conntrack_tcp_timeout_close_wait' to 3600\n","stream":"stderr","time":"2019-08-13T11:57:12.974120938Z"}
+{"log":"I0813 11:57:12.974158       1 config.go:187] Starting service config controller\n","stream":"stderr","time":"2019-08-13T11:57:12.975585481Z"}
+{"log":"I0813 11:57:12.974233       1 controller_utils.go:1029] Waiting for caches to sync for service config controller\n","stream":"stderr","time":"2019-08-13T11:57:12.975605562Z"}
+{"log":"I0813 11:57:12.975684       1 config.go:96] Starting endpoints config controller\n","stream":"stderr","time":"2019-08-13T11:57:12.975725024Z"}
+{"log":"I0813 11:57:12.975761       1 controller_utils.go:1029] Waiting for caches to sync for endpoints config controller\n","stream":"stderr","time":"2019-08-13T11:57:12.975797569Z"}
+{"log":"I0813 11:57:13.077176       1 controller_utils.go:1036] Caches are synced for service config controller\n","stream":"stderr","time":"2019-08-13T11:57:13.078024847Z"}
+{"log":"I0813 11:57:13.077451       1 controller_utils.go:1036] Caches are synced for endpoints config controller\n","stream":"stderr","time":"2019-08-13T11:57:13.078884729Z"}

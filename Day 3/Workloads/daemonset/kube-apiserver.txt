@@ -1,0 +1,494 @@
+{"log":"Flag --insecure-port has been deprecated, This flag will be removed in a future version.\n","stream":"stderr","time":"2019-08-13T11:56:36.110425273Z"}
+{"log":"I0813 11:56:36.110409       1 server.go:560] external host was not specified, using 10.0.2.15\n","stream":"stderr","time":"2019-08-13T11:56:36.110618096Z"}
+{"log":"I0813 11:56:36.110717       1 server.go:147] Version: v1.15.2\n","stream":"stderr","time":"2019-08-13T11:56:36.110810838Z"}
+{"log":"I0813 11:56:37.307761       1 plugins.go:158] Loaded 10 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,MutatingAdmissionWebhook.\n","stream":"stderr","time":"2019-08-13T11:56:37.308032859Z"}
+{"log":"I0813 11:56:37.307802       1 plugins.go:161] Loaded 6 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,Priority,PersistentVolumeClaimResize,ValidatingAdmissionWebhook,ResourceQuota.\n","stream":"stderr","time":"2019-08-13T11:56:37.308067151Z"}
+{"log":"E0813 11:56:37.311816       1 prometheus.go:55] failed to register depth metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:37.312036029Z"}
+{"log":"E0813 11:56:37.311911       1 prometheus.go:68] failed to register adds metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:37.312070814Z"}
+{"log":"E0813 11:56:37.311954       1 prometheus.go:82] failed to register latency metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:37.312109182Z"}
+{"log":"E0813 11:56:37.311996       1 prometheus.go:96] failed to register workDuration metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:37.312208932Z"}
+{"log":"E0813 11:56:37.312042       1 prometheus.go:112] failed to register unfinished metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:37.312222319Z"}
+{"log":"E0813 11:56:37.312076       1 prometheus.go:126] failed to register unfinished metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:37.312232286Z"}
+{"log":"E0813 11:56:37.312102       1 prometheus.go:152] failed to register depth metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:37.312242485Z"}
+{"log":"E0813 11:56:37.312130       1 prometheus.go:164] failed to register adds metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:37.312326889Z"}
+{"log":"E0813 11:56:37.312182       1 prometheus.go:176] failed to register latency metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:37.312339086Z"}
+{"log":"E0813 11:56:37.312230       1 prometheus.go:188] failed to register work_duration metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:37.312347142Z"}
+{"log":"E0813 11:56:37.312275       1 prometheus.go:203] failed to register unfinished_work_seconds metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:37.312436154Z"}
+{"log":"E0813 11:56:37.312307       1 prometheus.go:216] failed to register longest_running_processor_microseconds metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:37.312449584Z"}
+{"log":"I0813 11:56:37.312339       1 plugins.go:158] Loaded 10 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,MutatingAdmissionWebhook.\n","stream":"stderr","time":"2019-08-13T11:56:37.312460227Z"}
+{"log":"I0813 11:56:37.312353       1 plugins.go:161] Loaded 6 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,Priority,PersistentVolumeClaimResize,ValidatingAdmissionWebhook,ResourceQuota.\n","stream":"stderr","time":"2019-08-13T11:56:37.312488739Z"}
+{"log":"I0813 11:56:37.331997       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:37.332311738Z"}
+{"log":"I0813 11:56:37.332042       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:37.332344832Z"}
+{"log":"I0813 11:56:37.341945       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.342203422Z"}
+{"log":"I0813 11:56:37.344286       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.344568174Z"}
+{"log":"I0813 11:56:37.440705       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.440953544Z"}
+{"log":"I0813 11:56:37.442611       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:37.442754147Z"}
+{"log":"I0813 11:56:37.442726       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:37.442874081Z"}
+{"log":"I0813 11:56:37.443161       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.443266634Z"}
+{"log":"I0813 11:56:37.443545       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.443658101Z"}
+{"log":"I0813 11:56:37.464775       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.464959329Z"}
+{"log":"I0813 11:56:37.720443       1 master.go:233] Using reconciler: lease\n","stream":"stderr","time":"2019-08-13T11:56:37.720621371Z"}
+{"log":"I0813 11:56:37.721401       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:37.721470955Z"}
+{"log":"I0813 11:56:37.721451       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:37.721547823Z"}
+{"log":"I0813 11:56:37.721602       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.721673338Z"}
+{"log":"I0813 11:56:37.721785       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.721906145Z"}
+{"log":"I0813 11:56:37.740425       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.740634549Z"}
+{"log":"I0813 11:56:37.753704       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:37.753904809Z"}
+{"log":"I0813 11:56:37.753734       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:37.753931331Z"}
+{"log":"I0813 11:56:37.753835       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.753999749Z"}
+{"log":"I0813 11:56:37.754092       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.75423262Z"}
+{"log":"I0813 11:56:37.772354       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.772527321Z"}
+{"log":"I0813 11:56:37.833754       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:37.834211662Z"}
+{"log":"I0813 11:56:37.833879       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:37.834331409Z"}
+{"log":"I0813 11:56:37.834646       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.835053237Z"}
+{"log":"I0813 11:56:37.835533       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.835961549Z"}
+{"log":"I0813 11:56:37.877055       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.877287639Z"}
+{"log":"I0813 11:56:37.877718       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:37.877886808Z"}
+{"log":"I0813 11:56:37.877756       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:37.877909448Z"}
+{"log":"I0813 11:56:37.878042       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.878198296Z"}
+{"log":"I0813 11:56:37.878320       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.878480508Z"}
+{"log":"I0813 11:56:37.907053       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.907299418Z"}
+{"log":"I0813 11:56:37.908780       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:37.908948333Z"}
+{"log":"I0813 11:56:37.908805       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:37.908980135Z"}
+{"log":"I0813 11:56:37.908855       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.908993724Z"}
+{"log":"I0813 11:56:37.908912       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.909007555Z"}
+{"log":"I0813 11:56:37.928609       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.928816594Z"}
+{"log":"I0813 11:56:37.929522       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:37.929650141Z"}
+{"log":"I0813 11:56:37.929545       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:37.929674363Z"}
+{"log":"I0813 11:56:37.929587       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.929684438Z"}
+{"log":"I0813 11:56:37.929642       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.92975666Z"}
+{"log":"I0813 11:56:37.948619       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.948776585Z"}
+{"log":"I0813 11:56:37.950014       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:37.950149128Z"}
+{"log":"I0813 11:56:37.950288       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:37.950409824Z"}
+{"log":"I0813 11:56:37.950625       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.950692903Z"}
+{"log":"I0813 11:56:37.950817       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.950879442Z"}
+{"log":"I0813 11:56:37.968958       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.969083414Z"}
+{"log":"I0813 11:56:37.970535       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:37.970661075Z"}
+{"log":"I0813 11:56:37.970761       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:37.970849242Z"}
+{"log":"I0813 11:56:37.971020       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.971103303Z"}
+{"log":"I0813 11:56:37.971262       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:37.971339991Z"}
+{"log":"I0813 11:56:38.004600       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.004815491Z"}
+{"log":"I0813 11:56:38.007034       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.007221191Z"}
+{"log":"I0813 11:56:38.007358       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.007472259Z"}
+{"log":"I0813 11:56:38.007641       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.00773904Z"}
+{"log":"I0813 11:56:38.007926       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.008013058Z"}
+{"log":"I0813 11:56:38.027309       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.027504325Z"}
+{"log":"I0813 11:56:38.029667       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.029795602Z"}
+{"log":"I0813 11:56:38.030031       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.030125617Z"}
+{"log":"I0813 11:56:38.030233       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.030315805Z"}
+{"log":"I0813 11:56:38.030492       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.030548616Z"}
+{"log":"I0813 11:56:38.049587       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.049724093Z"}
+{"log":"I0813 11:56:38.050544       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.050619392Z"}
+{"log":"I0813 11:56:38.050571       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.050635847Z"}
+{"log":"I0813 11:56:38.050625       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.050674391Z"}
+{"log":"I0813 11:56:38.050742       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.050847512Z"}
+{"log":"I0813 11:56:38.074439       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.074607383Z"}
+{"log":"I0813 11:56:38.076101       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.076242123Z"}
+{"log":"I0813 11:56:38.076404       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.076557611Z"}
+{"log":"I0813 11:56:38.076746       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.076872129Z"}
+{"log":"I0813 11:56:38.077321       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.077432094Z"}
+{"log":"I0813 11:56:38.096888       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.097083548Z"}
+{"log":"I0813 11:56:38.098214       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.098362929Z"}
+{"log":"I0813 11:56:38.098255       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.098388614Z"}
+{"log":"I0813 11:56:38.098439       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.098570454Z"}
+{"log":"I0813 11:56:38.098576       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.098704602Z"}
+{"log":"I0813 11:56:38.131696       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.131858101Z"}
+{"log":"I0813 11:56:38.132590       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.132817277Z"}
+{"log":"I0813 11:56:38.132616       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.132847159Z"}
+{"log":"I0813 11:56:38.132772       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.132930969Z"}
+{"log":"I0813 11:56:38.133105       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.133160331Z"}
+{"log":"I0813 11:56:38.153127       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.153281445Z"}
+{"log":"I0813 11:56:38.155630       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.155777893Z"}
+{"log":"I0813 11:56:38.155860       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.156010651Z"}
+{"log":"I0813 11:56:38.156067       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.15616168Z"}
+{"log":"I0813 11:56:38.156357       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.15646587Z"}
+{"log":"I0813 11:56:38.174823       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.174926764Z"}
+{"log":"I0813 11:56:38.175218       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.175357063Z"}
+{"log":"I0813 11:56:38.175092       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.175456657Z"}
+{"log":"I0813 11:56:38.175449       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.17549093Z"}
+{"log":"I0813 11:56:38.175592       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.175659624Z"}
+{"log":"I0813 11:56:38.195874       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.196079711Z"}
+{"log":"I0813 11:56:38.196906       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.197021455Z"}
+{"log":"I0813 11:56:38.196975       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.197046553Z"}
+{"log":"I0813 11:56:38.197083       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.197193291Z"}
+{"log":"I0813 11:56:38.197244       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.197353503Z"}
+{"log":"I0813 11:56:38.215542       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.215698683Z"}
+{"log":"I0813 11:56:38.216209       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.216354848Z"}
+{"log":"I0813 11:56:38.216230       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.216375441Z"}
+{"log":"I0813 11:56:38.216274       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.216385803Z"}
+{"log":"I0813 11:56:38.216438       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.216588736Z"}
+{"log":"I0813 11:56:38.233725       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.234028907Z"}
+{"log":"I0813 11:56:38.300722       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.301006248Z"}
+{"log":"I0813 11:56:38.300857       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.301086968Z"}
+{"log":"I0813 11:56:38.300963       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.301097693Z"}
+{"log":"I0813 11:56:38.301100       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.301205078Z"}
+{"log":"I0813 11:56:38.319037       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.319213153Z"}
+{"log":"I0813 11:56:38.487462       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.487613437Z"}
+{"log":"I0813 11:56:38.487541       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.4876829Z"}
+{"log":"I0813 11:56:38.487701       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.487756402Z"}
+{"log":"I0813 11:56:38.487848       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.487914902Z"}
+{"log":"I0813 11:56:38.505409       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.505553624Z"}
+{"log":"I0813 11:56:38.506803       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.50701591Z"}
+{"log":"I0813 11:56:38.507251       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.507314715Z"}
+{"log":"I0813 11:56:38.507394       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.507449098Z"}
+{"log":"I0813 11:56:38.507558       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.507612436Z"}
+{"log":"I0813 11:56:38.528153       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.528321125Z"}
+{"log":"I0813 11:56:38.529191       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.529312807Z"}
+{"log":"I0813 11:56:38.529264       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.529332676Z"}
+{"log":"I0813 11:56:38.529401       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.529473449Z"}
+{"log":"I0813 11:56:38.529577       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.529666497Z"}
+{"log":"I0813 11:56:38.547106       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.547340232Z"}
+{"log":"I0813 11:56:38.548133       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.54830319Z"}
+{"log":"I0813 11:56:38.548178       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.548336448Z"}
+{"log":"I0813 11:56:38.548231       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.548347981Z"}
+{"log":"I0813 11:56:38.548408       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.548504621Z"}
+{"log":"I0813 11:56:38.569003       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.56913533Z"}
+{"log":"I0813 11:56:38.570158       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.570266597Z"}
+{"log":"I0813 11:56:38.570331       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.570403189Z"}
+{"log":"I0813 11:56:38.570487       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.570532632Z"}
+{"log":"I0813 11:56:38.570625       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.570701746Z"}
+{"log":"I0813 11:56:38.590709       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.590833704Z"}
+{"log":"I0813 11:56:38.591810       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.591944863Z"}
+{"log":"I0813 11:56:38.591839       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.591968446Z"}
+{"log":"I0813 11:56:38.592018       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.592074637Z"}
+{"log":"I0813 11:56:38.592095       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.59213625Z"}
+{"log":"I0813 11:56:38.612878       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.613095481Z"}
+{"log":"I0813 11:56:38.614168       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.614379488Z"}
+{"log":"I0813 11:56:38.614202       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.614408758Z"}
+{"log":"I0813 11:56:38.614263       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.61441969Z"}
+{"log":"I0813 11:56:38.614358       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.614509665Z"}
+{"log":"I0813 11:56:38.653124       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.653349246Z"}
+{"log":"I0813 11:56:38.665973       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.666174184Z"}
+{"log":"I0813 11:56:38.666007       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.666208931Z"}
+{"log":"I0813 11:56:38.666071       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.666220318Z"}
+{"log":"I0813 11:56:38.666146       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.666301161Z"}
+{"log":"I0813 11:56:38.684712       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.684885631Z"}
+{"log":"I0813 11:56:38.684964       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.685022877Z"}
+{"log":"I0813 11:56:38.685064       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.685113796Z"}
+{"log":"I0813 11:56:38.685189       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.685238693Z"}
+{"log":"I0813 11:56:38.685382       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.685438417Z"}
+{"log":"I0813 11:56:38.703194       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.70332379Z"}
+{"log":"I0813 11:56:38.704438       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.70455774Z"}
+{"log":"I0813 11:56:38.704469       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.704580306Z"}
+{"log":"I0813 11:56:38.704527       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.704628459Z"}
+{"log":"I0813 11:56:38.704624       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.704764603Z"}
+{"log":"I0813 11:56:38.723803       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.724019675Z"}
+{"log":"I0813 11:56:38.725038       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.725122103Z"}
+{"log":"I0813 11:56:38.725067       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.725140438Z"}
+{"log":"I0813 11:56:38.725142       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.725232409Z"}
+{"log":"I0813 11:56:38.725280       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.725399676Z"}
+{"log":"I0813 11:56:38.744618       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.744768535Z"}
+{"log":"I0813 11:56:38.745602       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.745713234Z"}
+{"log":"I0813 11:56:38.745663       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.745743025Z"}
+{"log":"I0813 11:56:38.745769       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.745820357Z"}
+{"log":"I0813 11:56:38.745913       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.745956135Z"}
+{"log":"I0813 11:56:38.765371       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.765585284Z"}
+{"log":"I0813 11:56:38.766642       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.76674344Z"}
+{"log":"I0813 11:56:38.766660       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.766764258Z"}
+{"log":"I0813 11:56:38.766885       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.766970316Z"}
+{"log":"I0813 11:56:38.767094       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.767158135Z"}
+{"log":"I0813 11:56:38.785284       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.785458026Z"}
+{"log":"I0813 11:56:38.794920       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.795089281Z"}
+{"log":"I0813 11:56:38.794967       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.795132268Z"}
+{"log":"I0813 11:56:38.795012       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.795243752Z"}
+{"log":"I0813 11:56:38.795078       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.795314068Z"}
+{"log":"I0813 11:56:38.814440       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.814595928Z"}
+{"log":"I0813 11:56:38.816719       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.816906867Z"}
+{"log":"I0813 11:56:38.816744       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.816940123Z"}
+{"log":"I0813 11:56:38.816789       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.816952021Z"}
+{"log":"I0813 11:56:38.816915       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.817008628Z"}
+{"log":"I0813 11:56:38.835695       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.835840862Z"}
+{"log":"I0813 11:56:38.837148       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.837299994Z"}
+{"log":"I0813 11:56:38.837177       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.837325464Z"}
+{"log":"I0813 11:56:38.837277       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.837388778Z"}
+{"log":"I0813 11:56:38.837346       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.837404607Z"}
+{"log":"I0813 11:56:38.856450       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.85661181Z"}
+{"log":"I0813 11:56:38.857808       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.858076056Z"}
+{"log":"I0813 11:56:38.857844       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.858109957Z"}
+{"log":"I0813 11:56:38.858096       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.858250307Z"}
+{"log":"I0813 11:56:38.858190       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.858338057Z"}
+{"log":"I0813 11:56:38.877382       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.877514519Z"}
+{"log":"I0813 11:56:38.878031       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.878168868Z"}
+{"log":"I0813 11:56:38.878057       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.878192036Z"}
+{"log":"I0813 11:56:38.878144       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.878249198Z"}
+{"log":"I0813 11:56:38.878205       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.878265441Z"}
+{"log":"I0813 11:56:38.896515       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.89675001Z"}
+{"log":"I0813 11:56:38.897769       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.897941157Z"}
+{"log":"I0813 11:56:38.897799       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.897999285Z"}
+{"log":"I0813 11:56:38.897904       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.898057839Z"}
+{"log":"I0813 11:56:38.898034       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.898125798Z"}
+{"log":"I0813 11:56:38.916437       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.916633363Z"}
+{"log":"I0813 11:56:38.917684       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.917781122Z"}
+{"log":"I0813 11:56:38.917853       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.917984103Z"}
+{"log":"I0813 11:56:38.918033       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.918092372Z"}
+{"log":"I0813 11:56:38.918199       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.9182649Z"}
+{"log":"I0813 11:56:38.963968       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.964111711Z"}
+{"log":"I0813 11:56:38.965103       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.965219806Z"}
+{"log":"I0813 11:56:38.965126       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.965241571Z"}
+{"log":"I0813 11:56:38.965250       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.965283604Z"}
+{"log":"I0813 11:56:38.965342       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.965498392Z"}
+{"log":"I0813 11:56:38.984297       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.984441354Z"}
+{"log":"I0813 11:56:38.985469       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:38.985605716Z"}
+{"log":"I0813 11:56:38.985498       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:38.98572845Z"}
+{"log":"I0813 11:56:38.985790       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.985862196Z"}
+{"log":"I0813 11:56:38.985964       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:38.986064328Z"}
+{"log":"I0813 11:56:39.005617       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.0058066Z"}
+{"log":"I0813 11:56:39.008961       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.009109085Z"}
+{"log":"I0813 11:56:39.008994       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.009141947Z"}
+{"log":"I0813 11:56:39.009158       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.009215373Z"}
+{"log":"I0813 11:56:39.009236       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.009289771Z"}
+{"log":"I0813 11:56:39.033377       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.033513657Z"}
+{"log":"I0813 11:56:39.034363       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.034431066Z"}
+{"log":"I0813 11:56:39.034485       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.034533454Z"}
+{"log":"I0813 11:56:39.034605       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.034649056Z"}
+{"log":"I0813 11:56:39.034747       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.034788695Z"}
+{"log":"I0813 11:56:39.056833       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.056995964Z"}
+{"log":"I0813 11:56:39.057930       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.058085988Z"}
+{"log":"I0813 11:56:39.057997       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.058114283Z"}
+{"log":"I0813 11:56:39.058114       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.05820463Z"}
+{"log":"I0813 11:56:39.058196       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.058274806Z"}
+{"log":"I0813 11:56:39.079832       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.080019732Z"}
+{"log":"I0813 11:56:39.081153       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.081335555Z"}
+{"log":"I0813 11:56:39.081183       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.081367387Z"}
+{"log":"I0813 11:56:39.081243       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.081378417Z"}
+{"log":"I0813 11:56:39.081320       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.081465375Z"}
+{"log":"I0813 11:56:39.099436       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.099565199Z"}
+{"log":"I0813 11:56:39.099468       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.099590591Z"}
+{"log":"I0813 11:56:39.099685       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.099745354Z"}
+{"log":"I0813 11:56:39.099778       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.09985102Z"}
+{"log":"I0813 11:56:39.099867       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.099897876Z"}
+{"log":"I0813 11:56:39.117343       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.117487379Z"}
+{"log":"I0813 11:56:39.118382       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.118525701Z"}
+{"log":"I0813 11:56:39.118405       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.118543488Z"}
+{"log":"I0813 11:56:39.118446       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.118551504Z"}
+{"log":"I0813 11:56:39.118584       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.118662696Z"}
+{"log":"I0813 11:56:39.153570       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.153746462Z"}
+{"log":"I0813 11:56:39.178948       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.179094027Z"}
+{"log":"I0813 11:56:39.178986       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.179120158Z"}
+{"log":"I0813 11:56:39.179103       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.179169652Z"}
+{"log":"I0813 11:56:39.179164       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.179211463Z"}
+{"log":"I0813 11:56:39.196753       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.196924048Z"}
+{"log":"I0813 11:56:39.197783       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.19793534Z"}
+{"log":"I0813 11:56:39.197807       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.197962519Z"}
+{"log":"I0813 11:56:39.197850       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.197973001Z"}
+{"log":"I0813 11:56:39.198062       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.198188187Z"}
+{"log":"I0813 11:56:39.216101       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.216281494Z"}
+{"log":"I0813 11:56:39.217460       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.21759387Z"}
+{"log":"I0813 11:56:39.217499       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.217622731Z"}
+{"log":"I0813 11:56:39.217633       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.21770543Z"}
+{"log":"I0813 11:56:39.217776       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.2178963Z"}
+{"log":"I0813 11:56:39.236685       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.236880244Z"}
+{"log":"I0813 11:56:39.238013       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.238176319Z"}
+{"log":"I0813 11:56:39.238030       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.238202415Z"}
+{"log":"I0813 11:56:39.238203       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.238273066Z"}
+{"log":"I0813 11:56:39.238264       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.238331858Z"}
+{"log":"I0813 11:56:39.257454       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.257612434Z"}
+{"log":"I0813 11:56:39.258383       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.258505474Z"}
+{"log":"I0813 11:56:39.258413       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.258525167Z"}
+{"log":"I0813 11:56:39.258605       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.258740076Z"}
+{"log":"I0813 11:56:39.258756       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.258803234Z"}
+{"log":"I0813 11:56:39.278338       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.278520764Z"}
+{"log":"I0813 11:56:39.279298       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.279428444Z"}
+{"log":"I0813 11:56:39.279346       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.279470558Z"}
+{"log":"I0813 11:56:39.279540       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.279674994Z"}
+{"log":"I0813 11:56:39.279801       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.279946869Z"}
+{"log":"I0813 11:56:39.298553       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.298700655Z"}
+{"log":"I0813 11:56:39.299803       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.299969483Z"}
+{"log":"I0813 11:56:39.299828       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.299988599Z"}
+{"log":"I0813 11:56:39.299975       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.300041846Z"}
+{"log":"I0813 11:56:39.300129       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.300232537Z"}
+{"log":"I0813 11:56:39.319117       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.319291751Z"}
+{"log":"I0813 11:56:39.319977       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.320117492Z"}
+{"log":"I0813 11:56:39.320000       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.320140758Z"}
+{"log":"I0813 11:56:39.320041       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.320151367Z"}
+{"log":"I0813 11:56:39.320102       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.320222202Z"}
+{"log":"I0813 11:56:39.338249       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.33839696Z"}
+{"log":"I0813 11:56:39.339621       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.339775705Z"}
+{"log":"I0813 11:56:39.339643       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.339795353Z"}
+{"log":"I0813 11:56:39.339683       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.339803765Z"}
+{"log":"I0813 11:56:39.339822       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.339920779Z"}
+{"log":"I0813 11:56:39.359564       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.359721374Z"}
+{"log":"I0813 11:56:39.361304       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.361413504Z"}
+{"log":"I0813 11:56:39.361329       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.361432478Z"}
+{"log":"I0813 11:56:39.361486       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.361650162Z"}
+{"log":"I0813 11:56:39.361751       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.361850862Z"}
+{"log":"I0813 11:56:39.417896       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.418366772Z"}
+{"log":"I0813 11:56:39.419529       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.419930154Z"}
+{"log":"I0813 11:56:39.419577       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.419981304Z"}
+{"log":"I0813 11:56:39.420331       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.42110147Z"}
+{"log":"I0813 11:56:39.420650       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.421153332Z"}
+{"log":"I0813 11:56:39.450980       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.451311683Z"}
+{"log":"I0813 11:56:39.452151       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.452368378Z"}
+{"log":"I0813 11:56:39.452182       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.452396038Z"}
+{"log":"I0813 11:56:39.452250       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.452407318Z"}
+{"log":"I0813 11:56:39.452398       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.452524988Z"}
+{"log":"I0813 11:56:39.473127       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.473281748Z"}
+{"log":"I0813 11:56:39.474388       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.474666281Z"}
+{"log":"I0813 11:56:39.474540       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.474693661Z"}
+{"log":"I0813 11:56:39.474699       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.474782352Z"}
+{"log":"I0813 11:56:39.474942       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.475027416Z"}
+{"log":"I0813 11:56:39.496515       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.496668338Z"}
+{"log":"I0813 11:56:39.517302       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.517495765Z"}
+{"log":"I0813 11:56:39.517433       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.517575258Z"}
+{"log":"I0813 11:56:39.517670       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.517753047Z"}
+{"log":"I0813 11:56:39.517946       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.518033623Z"}
+{"log":"I0813 11:56:39.535769       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.535908509Z"}
+{"log":"I0813 11:56:39.537115       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.537223043Z"}
+{"log":"I0813 11:56:39.537282       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.537334127Z"}
+{"log":"I0813 11:56:39.537459       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.537545476Z"}
+{"log":"I0813 11:56:39.537698       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.53778047Z"}
+{"log":"I0813 11:56:39.558699       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.558866626Z"}
+{"log":"I0813 11:56:39.559748       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.560010659Z"}
+{"log":"I0813 11:56:39.559773       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.56003891Z"}
+{"log":"I0813 11:56:39.560120       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.560230709Z"}
+{"log":"I0813 11:56:39.560377       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.560532186Z"}
+{"log":"I0813 11:56:39.579694       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.579873035Z"}
+{"log":"I0813 11:56:39.581078       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.581241227Z"}
+{"log":"I0813 11:56:39.581881       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.582049176Z"}
+{"log":"I0813 11:56:39.582196       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.582340624Z"}
+{"log":"I0813 11:56:39.582474       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.582607447Z"}
+{"log":"I0813 11:56:39.600808       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.60098597Z"}
+{"log":"I0813 11:56:39.601665       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.601844981Z"}
+{"log":"I0813 11:56:39.601687       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.601916455Z"}
+{"log":"I0813 11:56:39.601735       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.602040588Z"}
+{"log":"I0813 11:56:39.601793       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.6020524Z"}
+{"log":"I0813 11:56:39.627663       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.627899494Z"}
+{"log":"I0813 11:56:39.629714       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.629947493Z"}
+{"log":"I0813 11:56:39.629757       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.629973983Z"}
+{"log":"I0813 11:56:39.630081       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.630214411Z"}
+{"log":"I0813 11:56:39.630357       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.630480873Z"}
+{"log":"I0813 11:56:39.656083       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.656287138Z"}
+{"log":"I0813 11:56:39.657284       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.657585434Z"}
+{"log":"I0813 11:56:39.657315       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.657616655Z"}
+{"log":"I0813 11:56:39.657463       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.657627312Z"}
+{"log":"I0813 11:56:39.657631       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.657730185Z"}
+{"log":"I0813 11:56:39.677272       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.67743823Z"}
+{"log":"I0813 11:56:39.678333       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.678458526Z"}
+{"log":"I0813 11:56:39.678354       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.678479328Z"}
+{"log":"I0813 11:56:39.678399       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.678598181Z"}
+{"log":"I0813 11:56:39.678759       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.678841663Z"}
+{"log":"I0813 11:56:39.698342       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.698533015Z"}
+{"log":"I0813 11:56:39.699537       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.699643517Z"}
+{"log":"I0813 11:56:39.699702       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.699753198Z"}
+{"log":"I0813 11:56:39.699854       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.69994026Z"}
+{"log":"I0813 11:56:39.700077       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.700146166Z"}
+{"log":"I0813 11:56:39.731530       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.731708381Z"}
+{"log":"I0813 11:56:39.732659       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.73280681Z"}
+{"log":"I0813 11:56:39.732840       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.732906992Z"}
+{"log":"I0813 11:56:39.733078       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.733174907Z"}
+{"log":"I0813 11:56:39.733370       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.733484546Z"}
+{"log":"I0813 11:56:39.751791       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.751997107Z"}
+{"log":"I0813 11:56:39.752741       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:39.752980992Z"}
+{"log":"I0813 11:56:39.752770       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:39.753010166Z"}
+{"log":"I0813 11:56:39.753049       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.753182134Z"}
+{"log":"I0813 11:56:39.753169       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.753238006Z"}
+{"log":"I0813 11:56:39.772927       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:39.77312518Z"}
+{"log":"W0813 11:56:40.401230       1 genericapiserver.go:351] Skipping API batch/v2alpha1 because it has no resources.\n","stream":"stderr","time":"2019-08-13T11:56:40.401618196Z"}
+{"log":"W0813 11:56:40.427079       1 genericapiserver.go:351] Skipping API node.k8s.io/v1alpha1 because it has no resources.\n","stream":"stderr","time":"2019-08-13T11:56:40.427333172Z"}
+{"log":"W0813 11:56:40.463901       1 genericapiserver.go:351] Skipping API rbac.authorization.k8s.io/v1alpha1 because it has no resources.\n","stream":"stderr","time":"2019-08-13T11:56:40.464031898Z"}
+{"log":"W0813 11:56:40.465796       1 genericapiserver.go:351] Skipping API scheduling.k8s.io/v1alpha1 because it has no resources.\n","stream":"stderr","time":"2019-08-13T11:56:40.465890665Z"}
+{"log":"W0813 11:56:40.470312       1 genericapiserver.go:351] Skipping API storage.k8s.io/v1alpha1 because it has no resources.\n","stream":"stderr","time":"2019-08-13T11:56:40.470414772Z"}
+{"log":"E0813 11:56:42.931184       1 prometheus.go:55] failed to register depth metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:42.93136122Z"}
+{"log":"E0813 11:56:42.931326       1 prometheus.go:68] failed to register adds metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:42.931418275Z"}
+{"log":"E0813 11:56:42.931494       1 prometheus.go:82] failed to register latency metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:42.931622776Z"}
+{"log":"E0813 11:56:42.931648       1 prometheus.go:96] failed to register workDuration metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:42.931696453Z"}
+{"log":"E0813 11:56:42.931784       1 prometheus.go:112] failed to register unfinished metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:42.931855212Z"}
+{"log":"E0813 11:56:42.931893       1 prometheus.go:126] failed to register unfinished metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:42.931964913Z"}
+{"log":"E0813 11:56:42.932026       1 prometheus.go:152] failed to register depth metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:42.932099099Z"}
+{"log":"E0813 11:56:42.932145       1 prometheus.go:164] failed to register adds metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:42.932231837Z"}
+{"log":"E0813 11:56:42.932295       1 prometheus.go:176] failed to register latency metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:42.932445665Z"}
+{"log":"E0813 11:56:42.932590       1 prometheus.go:188] failed to register work_duration metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:42.932669053Z"}
+{"log":"E0813 11:56:42.932765       1 prometheus.go:203] failed to register unfinished_work_seconds metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:42.932844421Z"}
+{"log":"E0813 11:56:42.932924       1 prometheus.go:216] failed to register longest_running_processor_microseconds metric admission_quota_controller: duplicate metrics collector registration attempted\n","stream":"stderr","time":"2019-08-13T11:56:42.932981125Z"}
+{"log":"I0813 11:56:42.933097       1 plugins.go:158] Loaded 10 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,MutatingAdmissionWebhook.\n","stream":"stderr","time":"2019-08-13T11:56:42.933178618Z"}
+{"log":"I0813 11:56:42.933117       1 plugins.go:161] Loaded 6 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,Priority,PersistentVolumeClaimResize,ValidatingAdmissionWebhook,ResourceQuota.\n","stream":"stderr","time":"2019-08-13T11:56:42.933193222Z"}
+{"log":"I0813 11:56:42.937380       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:42.937488019Z"}
+{"log":"I0813 11:56:42.937402       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:42.937510984Z"}
+{"log":"I0813 11:56:42.937528       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:42.937636375Z"}
+{"log":"I0813 11:56:42.937763       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:42.937843833Z"}
+{"log":"I0813 11:56:42.956626       1 client.go:354] parsed scheme: \"\"\n","stream":"stderr","time":"2019-08-13T11:56:42.95682395Z"}
+{"log":"I0813 11:56:42.956652       1 client.go:354] scheme \"\" not registered, fallback to default scheme\n","stream":"stderr","time":"2019-08-13T11:56:42.956854222Z"}
+{"log":"I0813 11:56:42.956696       1 asm_amd64.s:1337] ccResolverWrapper: sending new addresses to cc: [{127.0.0.1:2379 0  \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:42.956865912Z"}
+{"log":"I0813 11:56:42.956858       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:42.956943972Z"}
+{"log":"I0813 11:56:42.957285       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:42.957402929Z"}
+{"log":"I0813 11:56:42.980099       1 asm_amd64.s:1337] balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 \u003cnil\u003e}]\n","stream":"stderr","time":"2019-08-13T11:56:42.980296669Z"}
+{"log":"I0813 11:56:50.437960       1 secure_serving.go:116] Serving securely on [::]:6443\n","stream":"stderr","time":"2019-08-13T11:56:50.438131635Z"}
+{"log":"I0813 11:56:50.438187       1 autoregister_controller.go:140] Starting autoregister controller\n","stream":"stderr","time":"2019-08-13T11:56:50.438262256Z"}
+{"log":"I0813 11:56:50.438294       1 cache.go:32] Waiting for caches to sync for autoregister controller\n","stream":"stderr","time":"2019-08-13T11:56:50.438402359Z"}
+{"log":"I0813 11:56:50.438319       1 crd_finalizer.go:255] Starting CRDFinalizer\n","stream":"stderr","time":"2019-08-13T11:56:50.438582797Z"}
+{"log":"I0813 11:56:50.450911       1 log.go:172] http: TLS handshake error from 10.0.2.15:36570: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.451066861Z"}
+{"log":"I0813 11:56:50.456839       1 log.go:172] http: TLS handshake error from 10.0.2.15:36572: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.45696708Z"}
+{"log":"I0813 11:56:50.462796       1 log.go:172] http: TLS handshake error from 10.0.2.15:36574: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.462907265Z"}
+{"log":"I0813 11:56:50.468602       1 log.go:172] http: TLS handshake error from 10.0.2.15:36576: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.468751539Z"}
+{"log":"I0813 11:56:50.474584       1 log.go:172] http: TLS handshake error from 10.0.2.15:36578: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.47469816Z"}
+{"log":"I0813 11:56:50.480628       1 log.go:172] http: TLS handshake error from 10.0.2.15:36580: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.480785999Z"}
+{"log":"I0813 11:56:50.486494       1 log.go:172] http: TLS handshake error from 10.0.2.15:36582: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.486573673Z"}
+{"log":"I0813 11:56:50.492310       1 log.go:172] http: TLS handshake error from 10.0.2.15:36584: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.492412365Z"}
+{"log":"I0813 11:56:50.496593       1 apiservice_controller.go:94] Starting APIServiceRegistrationController\n","stream":"stderr","time":"2019-08-13T11:56:50.496681761Z"}
+{"log":"I0813 11:56:50.496771       1 cache.go:32] Waiting for caches to sync for APIServiceRegistrationController controller\n","stream":"stderr","time":"2019-08-13T11:56:50.496847997Z"}
+{"log":"I0813 11:56:50.496970       1 controller.go:81] Starting OpenAPI AggregationController\n","stream":"stderr","time":"2019-08-13T11:56:50.497059258Z"}
+{"log":"I0813 11:56:50.497134       1 crdregistration_controller.go:112] Starting crd-autoregister controller\n","stream":"stderr","time":"2019-08-13T11:56:50.497206816Z"}
+{"log":"I0813 11:56:50.497236       1 controller_utils.go:1029] Waiting for caches to sync for crd-autoregister controller\n","stream":"stderr","time":"2019-08-13T11:56:50.49729814Z"}
+{"log":"I0813 11:56:50.438211       1 available_controller.go:376] Starting AvailableConditionController\n","stream":"stderr","time":"2019-08-13T11:56:50.497410578Z"}
+{"log":"I0813 11:56:50.497454       1 cache.go:32] Waiting for caches to sync for AvailableConditionController controller\n","stream":"stderr","time":"2019-08-13T11:56:50.497518852Z"}
+{"log":"I0813 11:56:50.498805       1 log.go:172] http: TLS handshake error from 10.0.2.15:36586: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.498992816Z"}
+{"log":"I0813 11:56:50.504762       1 log.go:172] http: TLS handshake error from 10.0.2.15:36588: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.504904604Z"}
+{"log":"I0813 11:56:50.508681       1 controller.go:83] Starting OpenAPI controller\n","stream":"stderr","time":"2019-08-13T11:56:50.508855674Z"}
+{"log":"I0813 11:56:50.508763       1 customresource_discovery_controller.go:208] Starting DiscoveryController\n","stream":"stderr","time":"2019-08-13T11:56:50.508884854Z"}
+{"log":"I0813 11:56:50.508935       1 naming_controller.go:288] Starting NamingConditionController\n","stream":"stderr","time":"2019-08-13T11:56:50.509037526Z"}
+{"log":"I0813 11:56:50.508988       1 establishing_controller.go:73] Starting EstablishingController\n","stream":"stderr","time":"2019-08-13T11:56:50.509163514Z"}
+{"log":"I0813 11:56:50.509111       1 nonstructuralschema_controller.go:191] Starting NonStructuralSchemaConditionController\n","stream":"stderr","time":"2019-08-13T11:56:50.509176113Z"}
+{"log":"I0813 11:56:50.511252       1 log.go:172] http: TLS handshake error from 10.0.2.15:36590: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.511377293Z"}
+{"log":"E0813 11:56:50.518299       1 controller.go:148] Unable to remove old endpoints from kubernetes service: StorageError: key not found, Code: 1, Key: /registry/masterleases/10.0.2.15, ResourceVersion: 0, AdditionalErrorMsg: \n","stream":"stderr","time":"2019-08-13T11:56:50.518456873Z"}
+{"log":"I0813 11:56:50.537256       1 log.go:172] http: TLS handshake error from 10.0.2.15:36594: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.537383263Z"}
+{"log":"I0813 11:56:50.544778       1 log.go:172] http: TLS handshake error from 10.0.2.15:36596: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.54494781Z"}
+{"log":"I0813 11:56:50.552636       1 log.go:172] http: TLS handshake error from 10.0.2.15:36598: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.552865468Z"}
+{"log":"I0813 11:56:50.559435       1 log.go:172] http: TLS handshake error from 10.0.2.15:36600: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.559552138Z"}
+{"log":"I0813 11:56:50.563304       1 log.go:172] http: TLS handshake error from 10.0.2.15:36592: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.56352438Z"}
+{"log":"I0813 11:56:50.572788       1 log.go:172] http: TLS handshake error from 10.0.2.15:36602: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.572925156Z"}
+{"log":"I0813 11:56:50.581232       1 log.go:172] http: TLS handshake error from 10.0.2.15:36604: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.581365395Z"}
+{"log":"I0813 11:56:50.589607       1 log.go:172] http: TLS handshake error from 10.0.2.15:36606: EOF\n","stream":"stderr","time":"2019-08-13T11:56:50.589722791Z"}
+{"log":"I0813 11:56:50.738535       1 cache.go:39] Caches are synced for APIServiceRegistrationController controller\n","stream":"stderr","time":"2019-08-13T11:56:50.738766992Z"}
+{"log":"I0813 11:56:50.738568       1 controller_utils.go:1036] Caches are synced for crd-autoregister controller\n","stream":"stderr","time":"2019-08-13T11:56:50.738800406Z"}
+{"log":"I0813 11:56:50.766457       1 cache.go:39] Caches are synced for autoregister controller\n","stream":"stderr","time":"2019-08-13T11:56:50.766640802Z"}
+{"log":"I0813 11:56:50.801592       1 cache.go:39] Caches are synced for AvailableConditionController controller\n","stream":"stderr","time":"2019-08-13T11:56:50.801740666Z"}
+{"log":"I0813 11:56:51.434371       1 controller.go:107] OpenAPI AggregationController: Processing item \n","stream":"stderr","time":"2019-08-13T11:56:51.435036284Z"}
+{"log":"I0813 11:56:51.434509       1 controller.go:130] OpenAPI AggregationController: action for item : Nothing (removed from the queue).\n","stream":"stderr","time":"2019-08-13T11:56:51.435142699Z"}
+{"log":"I0813 11:56:51.436173       1 controller.go:130] OpenAPI AggregationController: action for item k8s_internal_local_delegation_chain_0000000000: Nothing (removed from the queue).\n","stream":"stderr","time":"2019-08-13T11:56:51.436727293Z"}
+{"log":"I0813 11:56:51.516610       1 storage_scheduling.go:119] created PriorityClass system-node-critical with value 2000001000\n","stream":"stderr","time":"2019-08-13T11:56:51.51696117Z"}
+{"log":"I0813 11:56:51.550258       1 storage_scheduling.go:119] created PriorityClass system-cluster-critical with value 2000000000\n","stream":"stderr","time":"2019-08-13T11:56:51.550593729Z"}
+{"log":"I0813 11:56:51.550350       1 storage_scheduling.go:128] all system priority classes are created successfully or already exist.\n","stream":"stderr","time":"2019-08-13T11:56:51.550987247Z"}
+{"log":"I0813 11:56:52.635429       1 controller.go:606] quota admission added evaluator for: leases.coordination.k8s.io\n","stream":"stderr","time":"2019-08-13T11:56:52.635618748Z"}
+{"log":"I0813 11:56:53.220852       1 controller.go:606] quota admission added evaluator for: roles.rbac.authorization.k8s.io\n","stream":"stderr","time":"2019-08-13T11:56:53.221143544Z"}
+{"log":"I0813 11:56:53.270412       1 controller.go:606] quota admission added evaluator for: endpoints\n","stream":"stderr","time":"2019-08-13T11:56:53.270840389Z"}
+{"log":"I0813 11:56:53.550680       1 controller.go:606] quota admission added evaluator for: rolebindings.rbac.authorization.k8s.io\n","stream":"stderr","time":"2019-08-13T11:56:53.550903191Z"}
+{"log":"W0813 11:56:54.046867       1 lease.go:223] Resetting endpoints for master service \"kubernetes\" to [10.0.2.15]\n","stream":"stderr","time":"2019-08-13T11:56:54.050811771Z"}
+{"log":"I0813 11:56:54.704817       1 controller.go:606] quota admission added evaluator for: serviceaccounts\n","stream":"stderr","time":"2019-08-13T11:56:54.705116483Z"}
+{"log":"I0813 11:56:55.617648       1 controller.go:606] quota admission added evaluator for: deployments.apps\n","stream":"stderr","time":"2019-08-13T11:56:55.617910514Z"}
+{"log":"I0813 11:56:55.762835       1 controller.go:606] quota admission added evaluator for: daemonsets.apps\n","stream":"stderr","time":"2019-08-13T11:56:55.763308573Z"}
+{"log":"I0813 11:57:10.515641       1 controller.go:606] quota admission added evaluator for: controllerrevisions.apps\n","stream":"stderr","time":"2019-08-13T11:57:10.515791104Z"}
+{"log":"I0813 11:57:10.701433       1 controller.go:606] quota admission added evaluator for: replicasets.apps\n","stream":"stderr","time":"2019-08-13T11:57:10.701679894Z"}
+{"log":"I0813 12:00:38.593140       1 controller.go:606] quota admission added evaluator for: daemonsets.extensions\n","stream":"stderr","time":"2019-08-13T12:00:38.593361817Z"}
+{"log":"I0813 12:00:53.921702       1 trace.go:81] Trace[322706610]: \"Get /api/v1/namespaces/kube-system/endpoints/kube-controller-manager\" (started: 2019-08-13 12:00:53.245676361 +0000 UTC m=+259.336535565) (total time: 675.895849ms):\n","stream":"stderr","time":"2019-08-13T12:00:53.922325819Z"}
+{"log":"Trace[322706610]: [675.040732ms] [674.825367ms] About to write a response\n","stream":"stderr","time":"2019-08-13T12:00:53.92240172Z"}
+{"log":"I0813 12:00:56.627467       1 trace.go:81] Trace[702976739]: \"Get /api/v1/namespaces/kube-system/endpoints/kube-controller-manager\" (started: 2019-08-13 12:00:55.949510341 +0000 UTC m=+262.040369574) (total time: 677.893319ms):\n","stream":"stderr","time":"2019-08-13T12:00:56.62832761Z"}
+{"log":"Trace[702976739]: [677.794165ms] [677.669037ms] About to write a response\n","stream":"stderr","time":"2019-08-13T12:00:56.6284461Z"}
+{"log":"I0813 12:00:56.661165       1 trace.go:81] Trace[1800835804]: \"GuaranteedUpdate etcd3: *v1.Endpoints\" (started: 2019-08-13 12:00:54.263663485 +0000 UTC m=+260.354522717) (total time: 2.397452701s):\n","stream":"stderr","time":"2019-08-13T12:00:56.661354183Z"}
+{"log":"Trace[1800835804]: [2.361165199s] [2.361165199s] initial value restored\n","stream":"stderr","time":"2019-08-13T12:00:56.661383107Z"}
+{"log":"I0813 12:02:28.495246       1 trace.go:81] Trace[1356395244]: \"Get /api/v1/namespaces/kube-system/endpoints/kube-scheduler\" (started: 2019-08-13 12:02:27.927032825 +0000 UTC m=+354.017892094) (total time: 568.047861ms):\n","stream":"stderr","time":"2019-08-13T12:02:28.497270147Z"}
+{"log":"Trace[1356395244]: [567.850606ms] [567.652675ms] About to write a response\n","stream":"stderr","time":"2019-08-13T12:02:28.542995515Z"}
+{"log":"I0813 12:02:30.579223       1 trace.go:81] Trace[1188513658]: \"Get /api/v1/namespaces/kube-system/endpoints/kube-controller-manager\" (started: 2019-08-13 12:02:29.844745622 +0000 UTC m=+355.935604860) (total time: 734.368514ms):\n","stream":"stderr","time":"2019-08-13T12:02:30.583352726Z"}
+{"log":"Trace[1188513658]: [734.220899ms] [734.097547ms] About to write a response\n","stream":"stderr","time":"2019-08-13T12:02:30.583410645Z"}
+{"log":"I0813 12:05:38.475244       1 trace.go:81] Trace[1872776583]: \"List etcd3: key=/jobs, resourceVersion=, limit: 500, continue: \" (started: 2019-08-13 12:05:37.809249157 +0000 UTC m=+543.900108292) (total time: 665.940483ms):\n","stream":"stderr","time":"2019-08-13T12:05:38.480771369Z"}
+{"log":"Trace[1872776583]: [665.940483ms] [665.940483ms] END\n","stream":"stderr","time":"2019-08-13T12:05:38.480806718Z"}
+{"log":"I0813 12:05:38.475541       1 trace.go:81] Trace[1701531339]: \"List /apis/batch/v1/jobs\" (started: 2019-08-13 12:05:37.809144637 +0000 UTC m=+543.900003772) (total time: 666.336123ms):\n","stream":"stderr","time":"2019-08-13T12:05:38.480819418Z"}
+{"log":"Trace[1701531339]: [666.122427ms] [666.029257ms] Listing from storage done\n","stream":"stderr","time":"2019-08-13T12:05:38.480832282Z"}
+{"log":"I0813 12:05:40.224075       1 trace.go:81] Trace[1748185619]: \"Get /api/v1/namespaces/kube-system/endpoints/kube-controller-manager\" (started: 2019-08-13 12:05:39.608317138 +0000 UTC m=+545.699176244) (total time: 615.698821ms):\n","stream":"stderr","time":"2019-08-13T12:05:40.225923378Z"}
+{"log":"Trace[1748185619]: [615.617316ms] [615.563384ms] About to write a response\n","stream":"stderr","time":"2019-08-13T12:05:40.226025805Z"}
+{"log":"I0813 12:13:12.517432       1 trace.go:81] Trace[314567543]: \"GuaranteedUpdate etcd3: *core.Endpoints\" (started: 2019-08-13 12:13:12.00801567 +0000 UTC m=+998.098874977) (total time: 509.257316ms):\n","stream":"stderr","time":"2019-08-13T12:13:12.52138546Z"}
+{"log":"Trace[314567543]: [509.159946ms] [507.875111ms] Transaction committed\n","stream":"stderr","time":"2019-08-13T12:13:12.521722835Z"}
+{"log":"I0813 12:13:12.517919       1 trace.go:81] Trace[926628061]: \"Update /api/v1/namespaces/kube-system/endpoints/kube-scheduler\" (started: 2019-08-13 12:13:12.007029449 +0000 UTC m=+998.097888781) (total time: 510.764983ms):\n","stream":"stderr","time":"2019-08-13T12:13:12.521791949Z"}
+{"log":"Trace[926628061]: [510.493148ms] [510.20829ms] Object stored in database\n","stream":"stderr","time":"2019-08-13T12:13:12.521846145Z"}
+{"log":"I0813 12:15:54.542437       1 trace.go:81] Trace[1674338035]: \"GuaranteedUpdate etcd3: *v1.Endpoints\" (started: 2019-08-13 12:15:54.004324367 +0000 UTC m=+1160.095183703) (total time: 537.992766ms):\n","stream":"stderr","time":"2019-08-13T12:15:54.54326299Z"}
+{"log":"Trace[1674338035]: [529.73124ms] [513.083152ms] Transaction prepared\n","stream":"stderr","time":"2019-08-13T12:15:54.543379605Z"}
+{"log":"E0813 12:16:13.539395       1 watcher.go:214] watch chan error: etcdserver: mvcc: required revision has been compacted\n","stream":"stderr","time":"2019-08-13T12:16:13.60255453Z"}

@@ -1,0 +1,6 @@
+Question: Why Kubernetes relies on proxying to forward inbound traffic to backends?
+
+Answer: 
+Since the Kubernetes uses DNS for the communication purposes, the DNS does not hold and store the results as per the policy of TTL. TTL currently supports Jobs only. Also it requires time in seconds to be described in "spec.ttlSecondsAfterFinished" so that it can terminate the Job after the interval mentioned. But DNS does not follow this commonly and instead caches the results of name lookups after they usually expire.
+
+Also, apps are required to perform DNS lookups and cache the results for a limited time. But this doesn't occur. Also due to a common mistake, a zero TTL (0 seconds mentioned) can make an impact of overloading the DNS service which then results in management difficulty.

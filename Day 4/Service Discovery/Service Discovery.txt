@@ -1,0 +1,7 @@
+Service Discovery by Env Variable & DNS:
+
+In the Environment Variable Service Discovery method, we first deploy a service. Then a pod or deployment is deployed. This method is used to determine the service host, service port etc. By using this method, it shows that according to which values the service is working. The environment variables are in the form of: {SVCNAME}_SERVICE_PORT
+Environment variables define how the service works. Whenever a pod is being deployed and run, the kubelet describes the environment variables to it if it is connected to a service. These environment variables can be for the further investigation of the service via the pod in case if any error occurs. 
+
+In the DNS method, every service gets its name in the form of default.svc.cluster.local.
+So, this DNS name is further resolved into the IP address and further replaces the node's IP address. Kubernetes has a kube-dns addon that exposes the service’s name as a DNS entry. As a result, we can tell our application to connect to a host name. The advantage of this approach is that we do not need to do a perform of looking every env variable. The service names are scoped within namespaces. This allows us to run different deployment of a service for each namespace  without having to edit configuration files. To use this method, an add-on of the core-dns or kube-dns is utilised. These servers always keep the eyes on kube-apiserver for a new entry or an update and update the DNS record which will then be used for discovering the service. 

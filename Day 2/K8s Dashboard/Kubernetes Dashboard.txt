@@ -1,0 +1,2 @@
+The Kubernetes Dashboard is a graphical representation and controlling manager that allows us to manage pods, services etc. in a kubernetes cluster.
+It requires token to be created for signing-in to the dashboard. Also, a bash shell should remain open with the command: "kubectl proxy"

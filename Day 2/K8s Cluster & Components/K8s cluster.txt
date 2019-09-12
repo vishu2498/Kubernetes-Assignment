@@ -1,0 +1,13 @@
+The K8s Cluster contains a Master Node and multiple worker nodes. The master node has all the permissions to manage the deployments on the cluster and the worker nodes have very fewer facilities available.
+
+Components of the Master node:
+1. API Server: It is the entrypoint for all the REST commands used to control the cluster. All the communication inside the cluster passes from here.
+2. ETCD: It is a simple, distributed key-value store that works as a kind of database. It is mainly used for shared configuration & service discovery. It stores all the configurations of the services, pods, replica-sets, nodes etc. It works as a storage unit.
+3. Kube Controller-Manager: It makes sure that the current state of every unit inside the cluster is same as the desired state. It controls the entire working of the cluster.
+4. Scheduler: It schedules the deployments to different specified or unspecified worker nodes. So that if a deployment is deployed without specifying the working node, it automatically schedules it to any worker node that has more availability and less traffic. It contains the resource usage info for each worker node.
+
+Components of Worker Node:
+1. Kubelet: It is the main communication agent that communicates with other nodes as well as the master node. It also ensures that the pods are running or not.
+2. Kube-Proxy: It runs on each node to deal with the individual hosts. It acts as a network proxy and a load balancer for a service on a single worker node. It also ensures that the services are available to the external users.
+
+"kubeadm join" command is provided from the Master Node so that the Worker node can take this join token and can connect to the cluster.

@@ -1,0 +1,36 @@
+Contexts for Namespaces:
+
+Creating contexts within same namespace-
+First I made two contexts within the same namespace. A context can known as a group of access parameters. It contains a Kubernetes Cluster, a user and a namespace.
+If I use the first context and deploy a pod on it, and then switch to the next context, the pod deployed is still visible since the pod exists in the same namespace.
+
+Commands used for this:
+1.kubectl create ns new
+2.kubectl get ns
+3.kubectl config set-context con1 --namespace=new --cluster=kubernetes --user=kubernetes-admin
+4.kubectl config set-context con2 --namespace=new --cluster=kubernetes --user=kubernetes-admin
+5.kubectl config use-context con1
+6.kubectl create -f pod.yml
+7.kubectl get pods
+8.kubectl config use-context con2
+9.kubectl get pods
+
+Creating contexts in different namespaces-
+First I made two contexts in different namespaces.
+Then I used first context and deployed a pod in it.
+Afterwards, I switched to the second context and tried getting pods.
+No pods were visible since the pod deployed in the first context is in different namespace as compaered to the second context.
+
+Commands used for this:
+1.kubectl create ns ns1
+2.kubectl create ns ns2
+3.kubectl get ns
+4.kubectl config set-context con1 --namespace=ns1 --cluster=kubernetes --user=kubernetes-admin
+5.kubectl config set-context con2 --namespace=ns2 --cluster=kubernetes --user=kubernetes-admin
+6.kubectl config get-contexts
+7.kubectl config use-context con1
+8.kubectl create -f pod.yml
+9.kubectl get pods
+10.kubectl config use-context con2
+11.kubectl get pods
+

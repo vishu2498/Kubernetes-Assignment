@@ -1,7 +1,7 @@
 Contexts for Namespaces:
 
 Creating contexts within same namespace-
-First I made two contexts within the same namespace. A context can known as a group of access parameters. It contains a Kubernetes Cluster, a user and a namespace.
+First I made two contexts within the same namespace. A context can be known as a group of access parameters. It contains a Kubernetes Cluster, a user and a namespace.
 If I use the first context and deploy a pod on it, and then switch to the next context, the pod deployed is still visible since the pod exists in the same namespace.
 
 Commands used for this:
@@ -34,3 +34,4 @@ Commands used for this:
 10.kubectl config use-context con2
 11.kubectl get pods
 
+Kubernetes gets its contexts from ".kube/config" file. However, for root user, the kubeconfig file is taken from "/root/.kube/config". For normal user, the kubeconfig file is taken from "/home/username/.kubeconfig".
